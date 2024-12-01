@@ -1,0 +1,7 @@
+/assets/css/
+/bootstrap/
+/_site/
+/public_html/
+/node_modules/
+error.log
+.sass-cache/

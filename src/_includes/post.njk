@@ -1,0 +1,16 @@
+---
+layout: "base.njk"
+author: "Tadeas Jun"
+authorPronouns: "he/they"
+---
+
+{% block content %}
+<main>
+	<div class="container blog-post">
+		<h1 class="display-2">{{ title }}</h1>
+		<p class="meta">by {{ author }} ({{ authorPronouns }}), {{ releaseDate }}</p>
+		{{ content | safe }}
+		<p class=pt-5>Thanks for reading this article by {{ author }}! Have any thoughts, feedback, or just want to chat? Contact the author at <b>contact@tadeasjun.com</b>, or on Discord at <b>@tadeasjun</b>. Tip them on their <a href="https://paypal.me/TadeasJun" target="_blank">PayPal</a> or hire them as a world designer, writer, or software engineer via their <a href="/">Portfolio page</a>.</p>
+	</div>
+</main>
+{% endblock content %}

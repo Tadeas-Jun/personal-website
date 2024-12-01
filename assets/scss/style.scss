@@ -1,0 +1,370 @@
+/* || Variables */
+$primary: #ff652f;
+$light: #FAFCFF;
+$dark: #2d2c2c;
+$font-family-base: 'Raleway', sans-serif;
+
+$display-font-sizes: (
+    1: 3rem,
+    2: 2.5rem,
+    3: 2rem,
+    4: 1.5rem,
+    5: 1rem
+);
+
+$body-bg: $light;
+
+$navbar-light-active-color: $primary;
+
+@import "../../bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/assets/fonts/Raleway.ttf');
+}
+
+
+/* || General settings */
+html {
+    scroll-behavior: smooth;
+}
+
+.text-regular {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    transition: all 0.3s;
+    border-radius: 3px;
+}
+
+.btn-dark:hover {
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.dropdown-item:active {
+    background-color: #f5f5f5;
+    color: $dark;
+}
+
+.alert.alert-light {
+    border-color: $dark;
+    background-color: $light;
+    color: $dark;
+}
+
+
+/* || Navbar */
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-toggler {
+    border-radius: 3px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: $primary;
+}
+
+.logo {
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+/* || Hero section */
+/* Bisexual flag div */
+.bisexual {
+
+    height: $font-size-base;
+    width: $font-size-base;
+    border-radius: 2px;
+    z-index: 2;
+    position: relative;
+
+    transition: 0.5s;
+
+    background: linear-gradient(to bottom,
+            #d60270,
+            #d60270 40%,
+            #9a4f96 40%,
+            #9a4f96 60%,
+            #0039a9 60%,
+            #0039a9);
+
+}
+
+.bisexual::before {
+
+    position: absolute;
+    border-radius: 2px;
+    opacity: 0;
+    inset: 0;
+    z-index: 1;
+    content: "";
+    transition: opacity 0.5s;
+
+    background: linear-gradient(to bottom,
+            #e40303,
+            #e40303 16.67%,
+            #ff8c00 16.67%,
+            #ff8c00 33.33%,
+            #ffed00 33.33%,
+            #ffed00 50%,
+            #008026 50%,
+            #008026 66.67%,
+            #004dff 66.67%,
+            #004dff 83.33%,
+            #750787 83.33%,
+            #750787);
+
+}
+
+.bisexual:hover::before {
+    opacity: 1;
+}
+
+/* Pronouns in Hero */
+.pronouns {
+    transition: 0.5s;
+}
+
+.pronouns-he:hover {
+    color: #0039a9;
+}
+
+.pronouns-they:hover {
+    color: #9a4f96;
+}
+
+
+/* || Project section */
+.project-column {
+    max-width: 100%;
+    transition: 1s;
+}
+@media screen and (min-width: 1200px) {
+    .project-column {
+        max-width: 30%;
+    }
+}
+
+.project-card {
+    min-width: 25%;
+    min-height: 15rem;
+}
+
+.show-more {
+    position: relative;
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    display: inline-block;
+    color: $dark;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.show-more:hover {
+    color: $primary;
+    font-weight: bold;
+}
+.show-more:before{
+    content:" ";
+    height: 1px;
+    width: 40%;
+    background: $dark;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .show-more:after{
+    content:" ";
+    height: 1px;
+    width: 40%;
+    background: $dark;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+.type-icon {
+    color: $primary;
+    transition: 0.5s;
+}
+
+.type-icon:hover {
+    color: $dark;
+}
+
+
+/* || Technologies section */
+.technology-card {
+    width: 7.5rem;
+    transition: 0.5s;
+}
+
+.technology-card:hover {
+    background-color: $dark;
+    color: $light;
+}
+
+.technology-icon {
+    max-width: 50%;
+}
+
+
+/* || Contact section */
+.social-btn {
+    color: $dark;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    color: $primary;
+}
+
+
+/* || Blog section */
+.invisible-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-item {
+    padding: 16px;
+    border-left: $dark 2px solid;
+    transition: 0.5s;
+}
+
+.article-item:hover {
+    transform: translate(0, -4px);
+    border-left: $primary 2px solid;
+    background-color: #EAEAEA;
+    border-radius: 8px;
+}
+
+.article-item:hover > .article-title {
+    color: $primary
+}
+
+.article-title {
+    color: $dark;
+    transition: 0.5s;
+}
+
+.article-meta {
+    margin-bottom: 0;
+    opacity: 0.2;
+}
+
+.blog-post > h2 {
+    margin-top: 30px;
+    font-size: 1.75rem;
+    font-weight: normal;
+}
+
+.blog-post .meta {
+    opacity: 0.25;
+}
+
+.blog-post img {
+    display: block;
+    border-radius: 8px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.blog-post code {
+    margin: 0 2px;
+    padding: 0 5px;
+    background-color: #EAEAEA;
+    border-radius: 4px;
+    color: $primary;
+}
+
+.blog-post pre code {
+    background: none;
+    display: inline-block;
+    line-height: 1.5rem;
+    color: $light;
+    margin: 0;
+    padding: 0 16px 0 0;
+}
+
+.blog-post pre code::before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid $primary;
+    padding-right: 1em;
+    margin-right: 1em;
+    color: #787878;
+    text-align: right;
+    width: 3em;
+}
+
+.blog-post pre.code {
+    color: $light;
+    background: $dark;
+    padding: 16px 0 16px 8px;
+    margin: 32px 16px;
+    border-radius: 8px;
+    counter-reset: line;
+}
+
+// Blog rainbow select colors
+.blog-post h1::selection {
+    background:rgba(212,169,255,.25);
+}
+.blog-post h2::selection {
+    background: rgba(255,150,155,.25);
+}
+.blog-post h3::selection {
+    background: rgba(255,190,129,.25);
+}
+.blog-post a::selection {
+    background: rgba(250,244,123,.25);
+}
+.blog-post b::selection {
+    background: rgba(204,250,158,.25);
+}
+.blog-post em::selection {
+    background: rgba(204,250,158,.25);
+}
+.blog-post li::selection {
+    background: rgba(157,236,255,.25);
+}
+
+.blog-post p:nth-child(6n+1)::selection {
+  background: rgba(255,150,155,.25);
+}
+.blog-post p:nth-child(6n+2)::selection {
+    background: rgba(255,190,129,.25);
+}
+.blog-post p:nth-child(6n+3)::selection {
+    background: rgba(250,244,123,.25);
+}
+.blog-post p:nth-child(6n+4)::selection {
+    background: rgba(204,250,158,.25);
+}
+.blog-post p:nth-child(6n+5)::selection {
+    background: rgba(157,236,255,.25);
+}
+.blog-post p:nth-child(6n+6)::selection {
+    background:rgba(212,169,255,.25)
+}

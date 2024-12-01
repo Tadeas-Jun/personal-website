@@ -1,0 +1,518 @@
+---
+layout: "base.njk"
+title: "Portfolio"
+---
+
+<script src="./assets/js/homepage.js"></script>
+
+<!-- Hero -->
+<section class="bg-light text-dark p-5 px-2 px-sm-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+  <div class="container">
+    <div class="d-sm-flex align-items-center justify-content-between">
+      <div>
+        <h1 class="display-1"><span data-i18n="home.name.first">Tadeas</span> <span class="text-primary" data-i18n="home.name.last">Jun</span></h1>
+        <div class="px-sm-2">
+          <div class="queer d-flex align-items-start justify-content-sm-start justify-content-center">
+            <p class="pb-2" id="pronouns">
+              (<span class="pronouns pronouns-he" data-i18n="home.pronouns.he">he</span> /
+              <span class="pronouns pronouns-they" data-i18n="home.pronouns.they">they</span>)
+            </p>
+            <div class="p-0 mx-3 mt-1">
+              <div class="bisexual"></div>
+            </div>
+          </div>
+          <h2 class="display-4" data-i18n="home.heading">World designer, writer, and software engineer.</h2>
+          <p class="lead pe-sm-5 mt-2 mb-4" data-i18n="home.subheading">Fantasy worlds, non-fiction articles, Android apps, Discord bots, oh my...</p>
+          <a href="#contact" class="btn btn-dark btn-lg px-5" data-i18n="home.button.chat">Let's chat</a>
+          <a href="/assets/pdf/tadeasjun_cv_en.pdf" target="_blank" class="btn btn-outline-dark btn-lg px-4 my-md-0 my-2 mx-1 cv-link" data-i18n="home.button.resume">My résumé</a>
+        </div>
+      </div>
+
+      <img class="img-fluid w-50 my-sm-0 my-5" src="/assets/img/placeholder.svg" alt="A placeholder illustration of a man standing next to a mobile phone."/>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="bg-light text-dark p-5 px-2 px-sm-5 text-sm-start">
+  <div class="container">
+    <h2 class="display-3" data-i18n="home.services.heading">What I can offer</h2>
+    <p class="lead" data-i18n="home.services.worldbuilding">I can offer you professional <span class="text-primary text-regular">world design</span> for any story, comic, or game. I specialize in fantasy worldbuilding, but I have experience with soft sci&#8209;fi worlds as well. Besides creating a world from scratch to your liking, I also have experience with world design consultations and continuing an existing worldbuilding project.</p>
+    <p class="lead" data-i18n="home.services.writing">I can offer you my <span class="text-primary text-regular">writing</span> skills in the areas of niche blog writing, academic writing, and technical writing. I have university education in the English language and I have been writing informational articles about worldbuilding, writing, and coding on my blog since 2019. I can also serve as a proofreader and a style checker (I have experience with the MLA and APA formats).</p>
+    <p class="lead" data-i18n="home.services.coding">I can offer you  <span class="text-primary text-regular">software engineering</span> of Android applications, Discord bots, and websites (both static and dynamic). I've been interested in coding for a decade, and I've been working part-time as a programmer for over a year; I've also worked as a freelance coder for the past 3 years. Through my industry experience, I can guarantee that the code I deliver will be readable, functional, and effective.</p>
+    <div class="alert alert-light mt-5" role="alert" data-i18n="home.services.ai">Read my statement on <a href="/blog/ai/">AI and AI-based projects</a>.</div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="bg-light text-dark p-5 px-2 px-sm-5 text-center text-sm-start">
+  <div class="container">
+    <h2 class="display-3" data-i18n="home.projects.heading">Projects</h2>
+    <div id="description">
+      <div class="row justify-content-between">
+        <div class="col-md-auto">
+          <p class="lead mt-md-1" data-i18n="home.projects.description">Check out some of my favorite and most recent projects.</p>
+        </div>
+
+        <div class="col-md-auto text-end">
+          <div class="row g-0">
+
+            <div class="col-md-auto">
+              <p class="lead me-3 mt-md-1 text-center" data-i18n="home.projects.filter.description">Filter by project type:</p>
+            </div>
+
+            <div class="col-md-auto text-center">
+              <div class="btn-group" id="filter-btns" aria-label="Buttons to filter projects by type">
+                <input type="checkbox" class="btn-check" id="btncheck_wb" autocomplete="off">
+                <label class="btn btn-outline-dark" for="btncheck_wb"><a class="icon-filter" title="Worldbuilding Projects"><i class="bi bi-stars h4"></i></a></label>
+
+                <input type="checkbox" class="btn-check" id="btncheck_wr" autocomplete="off">
+                <label class="btn btn-outline-dark" for="btncheck_wr"><a class="icon-filter" title="Writing Projects"><i class="bi bi-pencil-square h4"></i></a></label>
+
+                <input type="checkbox" class="btn-check" id="btncheck_cd" autocomplete="off">
+                <label class="btn btn-outline-dark" for="btncheck_cd"><a class="icon-filter" title="Coding Projects"><i class="bi bi-code h4"></i></a></label>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Project change checklist: Image, Image alt, Icon, Icon title, Card title, Body, Buttons, Add/remove modal, (Modal icon), (Modal icon title), (Modal title), (Modal body) -->
+
+    <div class="container pt-3 d-md-flex flex-wrap" id="projectsList">
+
+      <!-- Eledris -->
+      <div class="project-column mx-md-3 my-md-3" data-project="wb">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/eledris.png" class="card-img-top pb-3" alt="An illustration of several floating crystals, representative of the magic on the Eledris fantasy world."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Worldbuilding Project"><i class="bi bi-stars"></i></a><span data-i18n="home.projects.project.eledris.title">Eledris</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.eledris.description">Eledris is my personal worldbuilding project. It's a grimdark fantasy setting whose inhabitants need to fight for their survival as the planet is under siege by the demonic hordes. When writing worldbuilding articles, I always showcase a part of Eledris to give worldbuilders some inspiration. Working on Eledris ignited my passion for worldbuilding, which I channel into my freelance world design projects.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="#contact" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.eledris.primaryButtonText">Ask me anything</a>
+              <a href="/assets/pdf/holidays_eledris.pdf" target="_blank" class="btn btn-outline-dark btn-md mx-2" data-i18n="home.projects.project.eledris.secondaryButtonText">Open sample</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Art Prompts -->
+      <div class="project-column mx-md-3 my-md-3" data-project="cd">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/art_prompts.png" class="card-img-top pb-3" alt="An illustration of a mobile phone with the Art Prompts logo on its screen on top of a blank page of paper with a pencil."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Coding Project"><i class="bi bi-code"></i></a><span data-i18n="home.projects.project.artprompts.title">Art Prompts</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.artprompts.description">Art Prompts is one of my largest personal projects - it's a series of applications made to inspire artists to draw every day. The project includes an Android app (50k+ downloads), a web application (and its website), a Discord bot (7k+ servers), and more.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://artprompts.app" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.artprompts.primaryButtonText">Visit website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- On Worldbuilding and Plagues -->
+      <div class="project-column mx-md-3 my-md-3" data-project="wr">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/plagues.png" class="card-img-top pb-3" alt="An illustration of a diseased rat."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Writing Project"><i class="bi bi-pencil-square"></i></a><span data-i18n="home.projects.project.plagues.title">On Worldbuilding and Plagues</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.plagues.description">On Worldbuilding and Plagues is a 2.3k word article I wrote for my worldbuilding blog, Eledris. The article details how pandemics form, what impact they have on societies, and provides some useful examples of real-world plagues for wordbuilders.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://eledris.com/on-worldbuilding-and-plagues/" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.plagues.primaryButtonText">Read article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Palettey -->
+      <div class="project-column mx-md-3 my-md-3" data-project="cd">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/palettey.png" class="card-img-top pb-3" alt="The logo of the Palettey bot, a pink color palette icon, on a grey image."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Coding Project"><i class="bi bi-code"></i></a><span data-i18n="home.projects.project.palettey.title">Palettey</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.palettey.description">Palettey is a Discord bot for generating color palettes based on an input color. It implements multiple palette-generating algorithms. The bot is coded in PHP and the DiscordPHP library.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://github.com/Tadeas-Jun/Palettey" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.palettey.primaryButtonText">View source</a>
+              <a href="https://discord.com/oauth2/authorize?client_id=1111650904563798017&permissions=0&scope=bot%20applications.commands" target="_blank" class="btn btn-outline-dark btn-md mx-2" data-i18n="home.projects.project.palettey.secondaryButtonText">Invite to server</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Eledris Blog -->
+      <div class="project-column mx-md-3 my-md-3" data-project="wr">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/eledris_blog.png" class="card-img-top pb-3" alt="An illustration of a man reading a book in an armchair."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Writing Project"><i class="bi bi-pencil-square"></i></a><span data-i18n="home.projects.project.eledrisblog.title">The Eledris Blog</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.eledrisblog.description">The Eledris Blog is a resource dedicated to worldbuilders. I started the blog back in 2019, and since then, I've been writing articles for it whenever I have a bit of time to spare. To date, I've written over 50 articles, and the blog is visited by around 100 people a day.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://eledris.com" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.eledrisblog.primaryButtonText">Visit website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Forsakenland -->
+      <div class="project-column mx-md-3 my-md-3" data-project="wb">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/forsakenland.png" class="card-img-top pb-3" alt="An illustration of a whale-shaped spaceship."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Worldbuilding Project"><i class="bi bi-stars"></i></a><span data-i18n="home.projects.project.forsakenland.title">Forsakenland</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.forsakenland.description">Forsakenland is a work-in-progress grimdark sci‑fi game inspired by the world of Warhammer 40k. On this project, I work as the lead freelance world designer, creating the setting of Gylesian‑3C, a desert planet. I've created about 25 pages of notes so far; a sample can be seen by clicking the button below.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="/assets/pdf/forsakenland_sample.pdf" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.forsakenland.primaryButtonText">Open sample</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Freelance World Design -->
+      <div class="project-column mx-md-3 my-md-3" data-project="wb">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/worldbuilding.png" class="card-img-top pb-3" alt="An illustration of a dictator's hat, a monarch's crown, and an elected leader's crown."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Worldbuilding Project"><i class="bi bi-stars"></i></a><span data-i18n="home.projects.project.freelanceworldbuilding.title">Freelance World Design</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.freelanceworldbuilding.description">I've been a part of many world design projects as a freelance consultant. Some of these projects included creating original magic systems, history, and geography.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="/assets/pdf/worldbuilding_sample.pdf" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.freelanceworldbuilding.primaryButtonText">Open sample</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jots -->
+      <div class="project-column mx-md-3 my-md-3" data-project="cd">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/jots.png" class="card-img-top pb-3" alt="An illustration of a mobile phone with the Jots logo on its screen, next to a keyboard."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Coding Project"><i class="bi bi-code"></i></a><span data-i18n="home.projects.project.jots.title">Jots</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.jots.description">Jots is an open-source minimalistic notes app for Android, which I made in 2021. The app features a minimal UI, which can be personalized via the Themes in the Theme Store of the app.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://play.google.com/store/apps/details?id=com.eledris.jots" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.jots.primaryButtonText">Download</a>
+              <a href="https://github.com/Tadeas-Jun/Jots" target="_blank" class="btn btn-outline-dark btn-md mx-2" data-i18n="home.projects.project.jots.secondaryButtonText">View source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wumpi -->
+      <div class="project-column mx-md-3 my-md-3" data-project="cd" data-showmore>
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/wumpi.png" class="card-img-top pb-3" alt="An illustration of Wumpus, the Discord mascot, watering some plants."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Coding Project"><i class="bi bi-code"></i></a><span data-i18n="home.projects.project.wumpi.title">Wumpi</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.wumpi.description">Wumpi (n. plural of Wumpus) is a series of open-source Discord bots that I'm releasing on my GitHub profile. They enable users to easily set up their own simple utility bots for simple tasks such as welcoming new members, rolling DnD dice, and post cute ASCII art.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://github.com/stars/Tadeas-Jun/lists/wumpi/" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.wumpi.primaryButtonText">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Starfall -->
+      <div class="project-column mx-md-3 my-md-3" data-project="wr" data-showmore>
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/starfall.png" class="card-img-top pb-3" alt="An illustration of a closet full of fantasy clothing and weapons."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Writing Project"><i class="bi bi-pencil-square"></i></a><span data-i18n="home.projects.project.starfall.title">Starfall</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.starfall.description">Starfall was a Czech blog dedicated to user-friendly guides and news articles around the game World of Warcraft. While the blog unfortunately doesn't run anymore, it served as a valuable experince in writing about video games.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- czech-keywords -->
+      <div class="project-column mx-md-3 my-md-3" data-project="cd" data-showmore>
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/keywords.png" class="card-img-top pb-3" alt="An illustration of a man, sitting in a chair, looking at three computer screens."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Coding Project"><i class="bi bi-code"></i></a><span data-i18n="home.projects.project.keywords.title">czech-keywords</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.keywords.description">czech-keywords is a keyword extraction tool written in Perl. It runs using a custom-modified formula based on the tf{{dash}}idf algorithm. The entire source code, as well as documentation in both English and Czech can be found on GitHub.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://github.com/Tadeas-Jun/czech-keywords" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.keywords.primaryButtonText">View source</a>
+              <a href="https://github.com/Tadeas-Jun/czech-keywords/blob/main/documentation/eng/documentation.pdf" target="_blank" class="btn btn-outline-dark btn-md mx-2" data-i18n="home.projects.project.keywords.secondaryButtonText">Read docs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pride Flags & Gradients -->
+      <div class="project-column mx-md-3 my-md-3" data-project="cd" data-showmore>
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/figma_pride.png" class="card-img-top pb-3" alt="An illustration of a rainbow pride flag."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4"><a class="type-icon mx-2" title="Coding Project"><i class="bi bi-code"></i></a><span data-i18n="home.projects.project.prideflags.title">Pride Flags & Gradients</span></h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.prideflags.description">Pride Flags & Gradients is a queer-themed plugin for the design software Figma. It allows users to input various pride flags and pride-themed CSS gradients into their designs. The plugin is coded in TypeScript using React.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="https://www.figma.com/community/plugin/1002324870709884461" target="_blank" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.prideflags.primaryButtonText">Try it out</a>
+              <a href="https://github.com/Tadeas-Jun/figma-pride" target="_blank" class="btn btn-outline-dark btn-md mx-2" data-i18n="home.projects.project.prideflags.secondaryButtonText">View source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coming soon -->
+      <div class="project-column mx-md-3 my-md-3">
+        <div class="project-card card my-lg-0 my-3 h-100">
+          <img src="/assets/img/project_thumbnails/coming_soon.png" class="card-img-top pb-3" alt="A white to light purple gradient."/>
+          <div class="card-body text-center d-flex flex-column">
+            <h3 class="card-title h4" data-i18n="home.projects.project.comingsoon.title">Coming Soon</h3>
+            <p class="card-text text-start p-3" data-i18n="home.projects.project.comingsoon.description">I'm constantly working on new personal and professional projects! Check back on this site later, or contact me below if you'd like me to be a part of your project as well.</p>
+            <div class="d-flex align-items-center justify-content-center mt-auto mb-2">
+              <a href="#contact" class="btn btn-dark btn-md mx-2" data-i18n="home.projects.project.comingsoon.primaryButtonText">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Show more -->
+    <a id="showProjects" class="show-more">Show more projects</a>
+
+  </div>
+</section>
+
+<!-- Blog post -->
+ <section id="blog-posts" class="bg-light text-dark p-5 px-2 px-sm-5 text-center text-sm-start">
+  <div class="container">
+    <h2 class="display-3" data-i18n="home.blog.heading">Latest blog post</h2>
+    <p class="lead" data-i18n="home.blog.description">I just released this post! Read more of them on <a href="/blog">the blog page</a>.</p>
+    {% assign posts = collections.article | reverse %}
+    {% for post in posts limit:1 %}
+		<a href="{{ post.url }}" class="invisible-link">
+			<div href="{{ post.url }}" class="my-5 article-item">
+				<h2 class="display-4 article-title">{{ post.data.title }}</h2>
+				<p>{{ post.data.description }}</p>
+				<p class="article-meta">{{ post.data.author }}, {{ post.data.releaseDate }}</p>
+			</div>
+		</a>
+	  {% endfor %}
+  </div>
+ </section>
+
+<!-- Technologies -->
+<section id="technologies" class="bg-light text-dark p-5 px-2 px-sm-5 text-center text-sm-start">
+
+  <div class="container">
+    <h2 class="display-3" data-i18n="home.technologies.heading">Technologies</h2>
+    <p class="lead" data-i18n="home.technologies.description">Here are some of the technologies, tools, and software that I am comfortable working with (in alphabetical order).</p>
+
+    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mt-4">
+
+      <!-- Android -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/android.svg" alt="Android logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.android.title">Android</p>
+          <a href="https://developer.android.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Bootstrap -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/bootstrap.svg" alt="Bootstrap logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.bootstrap.title">Bootstrap</p>
+          <a href="https://getbootstrap.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Discord API -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/discord.svg" alt="Discord logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.discord.title">Discord API</p>
+          <a href="https://discord.com/developers/docs/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Figma -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/figma.svg" alt="Figma logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.figma.title">Figma</p>
+          <a href="https://www.figma.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- git -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/git.svg" alt="git logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.git.title">git</p>
+          <a href="https://git-scm.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- HTML -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/html.svg" alt="HTML logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.html.title">HTML</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Java -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/java.svg" alt="Java logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.java.title">Java</p>
+          <a href="https://www.java.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/javascript.svg" alt="JavaScript logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.javascript.title">JavaScript</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Node.js -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/nodejs.svg" alt="Node.js logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.nodejs.title">Node.js</p>
+          <a href="https://nodejs.org/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Oracle SQL -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/oracle-sql.svg" alt="Oracle SQL logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.oraclesql.title">Oracle SQL</p>
+          <a href="https://www.oracle.com/database/sqldeveloper/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Overleaf -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/overleaf.svg" alt="Overleaf logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.overleaf.title">Overleaf</p>
+          <a href="https://www.overleaf.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Perl -->
+      <!-- The camel emoji icon made by Twitter and other contributors, licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/. -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/perl.svg" alt="Camel emoji" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.perl.title">Perl</p>
+          <a href="https://www.perl.org/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- PHP -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/php.svg" alt="PHP logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.php.title">PHP</p>
+          <a href="https://www.php.net/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- React -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/react.svg" alt="React logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.react.title">React</p>
+          <a href="https://reactjs.org/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Sass -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/sass.svg" alt="Sass logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.sass.title">Sass (CSS)</p>
+          <a href="https://sass-lang.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <!-- Unity -->
+      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+        <div class="card-body text-center">
+          <img src="/assets/img/technologies/unity.svg" alt="Unity logo" class="technology-icon d-inline-block h-75"/>
+          <p class="pt-2" data-i18n="home.technologies.technology.unity.title">Unity</p>
+          <a href="https://unity.com/" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials" class="bg-light text-dark p-5 px-2 px-sm-5 text-center text-sm-start">
+  <div class="container">
+    <h2 class="display-3" data-i18n="home.testimonials.heading">Testimonials</h2>
+    <p class="lead" data-i18n="home.testimonials.description">What people say about me and my projects.</p>
+
+    <div class="text-start">
+      <div class="testimonial pt-4">
+        <i class="bi bi-quote h2"></i>
+        <figure class="ps-3">
+          <blockquote class="blockquote">
+            <p class="lead" data-i18n="home.testimonials.testimonial.phillipbush.text">
+              [Tadeas] was awesome in every aspect of our project. Very
+              knowledgeable and gave numerous ideas. We’re already pursuing
+              another project with him. Definitely would recommend to others!
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer" data-i18n="home.testimonials.testimonial.phillipbush.attribution">
+            Phillip Bush, Fiverr review (world design)
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="testimonial pt-4">
+        <i class="bi bi-quote h2"></i>
+        <figure class="ps-3">
+          <blockquote class="blockquote">
+            <p class="lead" data-i18n="home.testimonials.testimonial.jeremiahgigowski.text">
+              This app is truly one of the best art prompt apps out there, it
+              has unique ideas and phrases that really can make you feel
+              inspired!
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer" data-i18n="home.testimonials.testimonial.jeremiahgigowski.attribution">
+            Jeremiah Gigowski, review for the Art Prompts app
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <p class="lead pt-4" data-i18n="home.testimonials.contact">If you've worked with me and would like to leave a testimonial, please reach out to tadeas@jun.com</p>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-light text-dark p-5 px-2 px-sm-5 text-center text-sm-start">
+  <div class="container">
+    <h2 class="display-3" data-i18n="home.contact.heading">Contact me</h2>
+    <div class="text-start">
+      <p class="lead" data-i18n="home.contact.description">Let's chat! I offer freelance world design, academic and other non-fiction writing, coding Android apps, Discord bots, NodeJS projects, and more. You can reach me over email at <span class="text-primary text-regular"><a href="mailto:contact@tadeasjun.com">contact@tadeasjun.com</a></span> or on Discord at <span class="text-primary text-regular">@tadeasjun</span>. If you want to learn more about me before reaching out, <a href="/assets/pdf/tadeasjun_cv_eng.pdf" target="_blank">check out my CV</a>. I also hang out on social media; you can click the links below to reach me there.</p>
+    </div>
+    <div class="d-flex mt-5 align-items-center justify-content-center text-center">
+      <div class="h2 mx-3">
+        <a class="social-btn" target="_blank" href="https://www.linkedin.com/in/tadeas-jun/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="h2 mx-3">
+        <a class="social-btn" target="_blank" href="https://github.com/Tadeas-Jun"><i class="bi bi-github"></i></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
