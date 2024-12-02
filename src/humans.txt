@@ -1,0 +1,15 @@
+/* TEAM */
+	Author: Tadeas Jun
+	Contact: contact [at] tadeasjun.com
+	GitHub: Tadeas-Jun
+	From: Brno, Czech Republic
+
+	Proofreader: Sarka Prevratilova
+
+/* THANKS */
+	Readers: You!
+
+/* SITE */
+	Language: Czech / English
+	Doctype:HTML5
+	IDE: VS Code, Filezilla
