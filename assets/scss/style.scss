@@ -368,3 +368,13 @@ nav {
 .blog-post p:nth-child(6n+6)::selection {
     background:rgba(212,169,255,.25)
 }
+
+.alert-message {
+    text-align: center;
+    padding: 5px 5px;
+}
+.alert-message > p {
+margin: 0;
+padding: 0;
+color: #ff2f2f;
+}
