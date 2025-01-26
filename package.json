@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "🪐 The *tadeasjun.com* domain contains a small portfolio website for Tadeas Jun coded in Bootstrap in early 2023. **This repository is private.**",
   "main": "index.js",
   "devDependencies": {

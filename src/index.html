@@ -300,154 +300,24 @@ title: "Portfolio"
 
   <div class="container">
     <h2 class="display-3" data-i18n="home.technologies.heading">Technologies</h2>
-    <p class="lead" data-i18n="home.technologies.description">Here are some of the technologies, tools, and software that I am comfortable working with (in alphabetical order).</p>
+    <p class="lead" data-i18n="home.technologies.description">Here are some of the technologies, tools, and software that I am comfortable working with.</p>
 
     <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mt-4">
 
-      <!-- Android -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/android.svg" alt="Android logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.android.title">Android</p>
-          <a href="https://developer.android.com/" target="_blank" class="stretched-link"></a>
+      <!-- Technology cards loaded from /src/technologies files. -->
+      {% for technology in collections.technology %}
+        <!-- {{ technology.data.title }} -->
+        {% for comment in technology.data.extraComments %}
+          <!-- {{ comment }} -->
+        {% endfor %}
+        <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
+          <div class="card-body text-center">
+            <img src="{{ technology.data.image }}" alt="{{ technology.data.imageAlt }}" class="technology-icon d-inline-block h-75"/>
+            <p class="pt-2" data-i18n="{{ technology.data.i18n }}">{{ technology.data.title }}</p>
+            <a href="{{ technology.data.externalLink }}" target="_blank" class="stretched-link"></a>
+          </div>
         </div>
-      </div>
-
-      <!-- Bootstrap -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/bootstrap.svg" alt="Bootstrap logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.bootstrap.title">Bootstrap</p>
-          <a href="https://getbootstrap.com/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Discord API -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/discord.svg" alt="Discord logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.discord.title">Discord API</p>
-          <a href="https://discord.com/developers/docs/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Figma -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/figma.svg" alt="Figma logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.figma.title">Figma</p>
-          <a href="https://www.figma.com/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- git -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/git.svg" alt="git logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.git.title">git</p>
-          <a href="https://git-scm.com/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- HTML -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/html.svg" alt="HTML logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.html.title">HTML</p>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Java -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/java.svg" alt="Java logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.java.title">Java</p>
-          <a href="https://www.java.com/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- JavaScript -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/javascript.svg" alt="JavaScript logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.javascript.title">JavaScript</p>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Node.js -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/nodejs.svg" alt="Node.js logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.nodejs.title">Node.js</p>
-          <a href="https://nodejs.org/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Oracle SQL -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/oracle-sql.svg" alt="Oracle SQL logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.oraclesql.title">Oracle SQL</p>
-          <a href="https://www.oracle.com/database/sqldeveloper/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Overleaf -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/overleaf.svg" alt="Overleaf logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.overleaf.title">Overleaf</p>
-          <a href="https://www.overleaf.com/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Perl -->
-      <!-- The camel emoji icon made by Twitter and other contributors, licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/. -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/perl.svg" alt="Camel emoji" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.perl.title">Perl</p>
-          <a href="https://www.perl.org/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- PHP -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/php.svg" alt="PHP logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.php.title">PHP</p>
-          <a href="https://www.php.net/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- React -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/react.svg" alt="React logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.react.title">React</p>
-          <a href="https://reactjs.org/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Sass -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/sass.svg" alt="Sass logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.sass.title">Sass (CSS)</p>
-          <a href="https://sass-lang.com/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
-
-      <!-- Unity -->
-      <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative">
-        <div class="card-body text-center">
-          <img src="/assets/img/technologies/unity.svg" alt="Unity logo" class="technology-icon d-inline-block h-75"/>
-          <p class="pt-2" data-i18n="home.technologies.technology.unity.title">Unity</p>
-          <a href="https://unity.com/" target="_blank" class="stretched-link"></a>
-        </div>
-      </div>
+      {% endfor %}
 
     </div>
   </div>

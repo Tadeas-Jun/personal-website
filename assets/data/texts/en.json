@@ -159,7 +159,7 @@
 			},
 			"technologies": {
 				"heading": "Technologies",
-				"description": "Here are some of the technologies, tools, and software that I am comfortable working with (in alphabetical order).",
+				"description": "Here are some of the technologies, tools, and software that I am comfortable working with.",
 
 				"technology": {
 					"android": {
@@ -168,11 +168,29 @@
 					"bootstrap": {
 						"title": "Bootstrap"
 					},
+					"css": {
+						"title": "CSS"
+					},
+					"debian": {
+						"title": "Debian"
+					},
 					"discord": {
 						"title": "Discord API"
 					},
+					"docker": {
+						"title": "Docker"
+					},
+					"eleventy": {
+						"title": "Eleventy"
+					},
+					"express": {
+						"title": "Express.js"
+					},
 					"figma": {
 						"title": "Figma"
+					},
+					"gatsby": {
+						"title": "Gatsby.js"
 					},
 					"git": {
 						"title": "git"
@@ -186,11 +204,11 @@
 					"javascript": {
 						"title": "JavaScript"
 					},
+					"mysql": {
+						"title": "MySQL"
+					},
 					"nodejs": {
 						"title": "Node.js"
-					},
-					"oraclesql": {
-						"title": "Oracle SQL"
 					},
 					"overleaf": {
 						"title": "Overleaf"
@@ -201,14 +219,26 @@
 					"php": {
 						"title": "PHP"
 					},
+					"postgresql": {
+						"title": "PostgreSQL"
+					},
+					"proxmox": {
+						"title": "Proxmox"
+					},
 					"react": {
 						"title": "React"
 					},
 					"sass": {
-						"title": "Sass (CSS)"
+						"title": "Sass"
+					},
+					"ubuntu": {
+						"title": "Ubuntu"
 					},
 					"unity": {
 						"title": "Unity"
+					},
+					"wordpress": {
+						"title": "WordPress"
 					}
 
 				}
