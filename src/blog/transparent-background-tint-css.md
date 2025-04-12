@@ -9,11 +9,11 @@ tags: "article"
 
 I was recently working on a small website for one of my client's therapy practice, the design of which was inspired by a painting art style. In order to allow the client to change the colors of the website themselves, I wanted to make the textures of the design in greyscale and then tint it via CSS. This turned out to be more complicated than I expected, and I didn't really find a lot of people discussing this topic online. I've decided to write out my approach to tinting a background texture which has transparent parts in the hopes that this article will help developers working on the same issue.
 
-Below is a screenshot of the website. At the moment, the website isn't publicly available yet, but once it is, the link to it will also be found here.
+This article uses several screenshots of the website. Since the website is live now, it can also be found [here](https://www.terapielang.cz/).
 
 ![A screenshot of a website with light brown paint-textured background. There is a block with a portrait photo and some text in Czech in the middle of the page. The block has light blue background, also with a paint texture.](/assets/img/blog/cssbgtint-websiteblock.png)
 
-Both of the textures used on the website and discussed in this article were painted by **Petr Eduard Klouda**. Go check out his  [Instagram](https://www.instagram.com/amer1sal) to see some of his art!
+Both of the textures used on the website and discussed in this article were painted by **Petr Eduard Klouda**. Go check out his [Instagram](https://www.instagram.com/amer1sal) to see some of his art!
 
 ## The website's background
 The background of the entire website is the easier part, as it does not have any transparency around the edges. This is the texture used for the background:
