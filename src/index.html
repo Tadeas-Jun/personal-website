@@ -306,6 +306,7 @@ title: "Portfolio"
 
       <!-- Technology cards loaded from /src/technologies files. -->
       {% for technology in collections.technology %}
+      {% if technology.data.shown %}
         <!-- {{ technology.data.title }} -->
         {% for comment in technology.data.extraComments %}
           <!-- {{ comment }} -->
@@ -317,6 +318,7 @@ title: "Portfolio"
             <a href="{{ technology.data.externalLink }}" target="_blank" class="stretched-link"></a>
           </div>
         </div>
+      {% endif %}
       {% endfor %}
 
     </div>

@@ -49,3 +49,16 @@ There are a few things I would like to add to the website (and to my collection)
 In the end, this project took a bit over a month of most of my free time. I enjoyed my time with it, and I found more than a couple skins that I will actually use now when I'm playing the game. I'm happy with the website, and I hope that it will serve as a comprehensive(-ish) and organized resource for the community. My personal archive is backed up regularly to multiple disks to ensure that it doesn't get lost (while I don't have a full 3-2-1 backup solution set up yet, I'm getting there -- this is probably another topic for an article later on down the line). Overall, I would consider this a very successful side project. With this done, with some luck, the consequences of centralization and entropy of the internet will miss the incredible art of skilled Hollow Knight artists.
 
 Happy holidays! 🎄
+
+## Update: A year later
+This article was originally released on the 25th of December 2024. I'm writing this update at the end of October 2025. There has been a lot of developments for Hollow Knight as a whole, as well as for HKSkins, so I figured I would update this article to document these changes.
+
+Since its release, the community's response to the website has been amazing. I posted about it on the Hollow Knight Discord servers and Google (and other search engines) picked up on it. The site quickly climbed up to the first rank of Google for the search term "hollow knight skins", and thus started receiving a huge influx of visitors. At this time, the site gets around 3 000  visits a day.
+
+Once it started seeming more and more likely that Silksong (Hollow Knight's sequel game) would really release in 2025, I implemented a couple of features for the website in preparation for the sequel. I added a `game` element for each skin's metadata in order to indicate if it was a Hollow Knight or a Silksong skin. To differentiate between them on the website, I added a switcher above the search bar. I also implemented filters based on if each given skin included sprites for the main character or not, as well as an RSS feed so users can subscribe to see when updates happen.
+
+Near the end of August 2025, Team Cherry put out the release trailer for Silksong, alongside with the release date for the game, September 4th. At that point in time, I decided to do my best to catch up in filling in all of the original Hollow Knight skins I could find. I spent a couple hours every day filling out the database and ended up finishing a day before Silksong's release, having added 183 new skins in the last few days. You can see a history of these changes in the GitHub repo's commit history.
+
+Only two months after the game's release, there are already plenty of Silksong skins. These I also started adding to the website, dedicating every other weekend to updating HKSkins. Because of it's popularity, I regularly get e-mails and Discord messages informing me of new skins, and a few messages from skin artists themselves, asking me if I could add their work to the website. I find this very impactful, and I'm grateful that I can provide such an important resource for the community. I hope to keep track of all the new skins that are going to be coming out over the next few years and keeping the website updated!
+
+Happy Halloween! 🎃
