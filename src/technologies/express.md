@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Express.js
-i18n: home.technologies.technology.express.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/express.svg
 imageAlt: Express.js logo
+
 externalLink: https://expressjs.com/
-shown: true
+
+i18nTitle: home.technologies.technology.express.title
+
 ---

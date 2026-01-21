@@ -1,0 +1,32 @@
+<section id="technologies" class="bg-light text-dark p-5 px-2 px-sm-5 text-center text-sm-start">
+
+  <div class="container">
+    <h2 class="display-3" data-i18n="home.technologies.heading">Technologies</h2>
+    <p class="lead" data-i18n="home.technologies.description">Here are some of the technologies, tools, and software that I am comfortable working with. Click on a technology with a dark border to visit a page describing some of the projects I've worked on with that technology.</p>
+
+    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mt-4">
+
+      <!-- Technology cards loaded from /src/technologies files. -->
+      {% for technology in collections.technology %}
+      {% if technology.data.shown %}
+        <!-- {{ technology.data.title }} -->
+        {% for comment in technology.data.extraComments %}
+          <!-- {{ comment }} -->
+        {% endfor %}
+        <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative {% if technology.content | trim %} border border-dark {% endif %}">
+          <div class="card-body text-center">
+            <img src="{{ technology.data.image }}" alt="{{ technology.data.imageAlt }}" class="technology-icon d-inline-block h-75"/>
+            <p class="pt-2" data-i18n="{{ technology.data.i18nTitle }}">{{ technology.data.title }}</p>
+            {% if technology.content | trim %}
+              <a href="{{ technology.url }}" target="_blank" class="stretched-link"></a>
+            {% else %}
+              <a href="{{ technology.data.externalLink }}" target="_blank" class="stretched-link"></a>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

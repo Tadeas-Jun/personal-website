@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Java
-i18n: home.technologies.technology.java.title
+
+layout: technology.njk
+shown: false
+
 image: /assets/img/technologies/java.svg
 imageAlt: Java logo
+
 externalLink: https://www.java.com/
-shown: false
+
+i18nTitle: home.technologies.technology.java.title
+
 ---

@@ -1,9 +1,17 @@
 {
   "name": "portfolio",
-  "version": "1.2.8",
+  "version": "2026.1",
   "description": "🪐 The *tadeasjun.com* domain contains a small portfolio website for Tadeas Jun coded in Bootstrap in early 2023. **This repository is private.**",
   "main": "index.js",
+  "scripts": {
+    "develop": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "markdown-it": "^14.1.0"
   }
 }

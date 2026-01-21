@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Wordpress
-i18n: home.technologies.technology.wordpress.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/wordpress.svg
 imageAlt: Wordpress logo
+
 externalLink: https://wordpress.org/
-shown: true
+
+i18nTitle: home.technologies.technology.wordpress.title
+
 ---

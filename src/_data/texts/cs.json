@@ -1,0 +1,247 @@
+{
+	"cs": {
+		"portfolio": {
+			"header": {
+				"alt": {
+					"logo": "Iniciály T. J., použité jako logo webové stránky"
+				},
+				"portfolio": "Portfolio",
+				"projects": "Projekty",
+				"blog": "Blog",
+				"chat": "Kontakt"
+			},
+			"footer": {
+				"copyright": "Copyright &#169; 2023–2026 Tadeáš Jůn"
+			},
+			"home": {
+				"meta": {
+					"title": "Portfolio",
+					"description": "Jsem world designer, autor a vývojář. Podívejte se na mé projekty."
+				},
+				"name": {
+					"first": "Tadeáš",
+					"last": "Jůn"
+				},
+				"pronouns": {
+					"he": "on",
+					"they": "jeho"
+				},
+				"heading": "World designer, autor a vývojář",
+				"subheading": "Profesionálně buduji fantasy světy, píši informativní články, vyvíjím webové stránky, aplikace pro weby a Android, nebo třeba i Discord boty.",
+				"button": {
+					"chat": "Kontakt",
+					"resume": "Životopis"
+				},
+				"alt": {
+					"heroIllustration": "Placeholder ilustrace muže stojícího vedle mobilního telefonu."
+				},
+				"services": {
+					"heading": "Co Vám mohu nabídnout",
+					"worldbuilding": "Nabízím profesionální <span class='text-primary'>world design</span> pro fiktivní příběhy, komiksy a hry. Specializuji se ve fantasy worldbuildingu, ale mám i zkušenosti se sci&#8209;fi světy. Dokáži vybudovat realistické prostředí, kultury, a historii pro jakýkoliv nový či existujicí projekt.",
+					"writing": "Nabízím své <span class='text-primary'>autorské</span> zkušenosti v oblasti informativních článků pro blogy či akademického a technického psaní. Vystudoval jsem anglický jazyk na Masarykově univerzitě, a od roku 2019 informativně píši o kreativním psaní, worldbuildingu, a vývoji softwaru. Mám také zkušenosti jako korektor gramatiky a formálních stylů (primárně MLA a APA).",
+					"coding": "Nabízím své schopnosti jako <span class='text-primary'>vývojář</span>. V posledních několika letech jsem nakódoval Android aplikace, Discord boty, a webové stránky (statické i dynamické). Zajímám se o programování již přes 10 let, a profesně se mu věnuji přibližně 6 let. Díky mým zkušenostem v oboru mohu Vám zaručit kód, který bude čitelný, funkční a efektivní.",
+					"ai": "Prečtěte si mé vyjádření k [umělé inteligenci a projektům založených na AI](/blog/ai) (anglicky)."
+				},
+				"projects": {
+					"coding": {
+						"heading": "Software projekty",
+						"description": "Některé z programovacích projektů, na kterých jsem se podílel. Mé autorské projekty jsou vypsané níže.",
+						"smaller": "Menší software projekty"
+					},
+					"worldbuilding": {
+						"heading": "Worldbuilding & autorské projekty"
+					},
+					"project": {
+						"eledris": {
+							"title": "Eledris",
+							"imgAlt": "Ilustrace několika levitujících krystalů, které reprezentují magii ve fantasy světě Eledris.",
+							"description": "Eledris je můj osobní worldbuilding projekt. Jedná se o grimdark fantasy svět, jehož obyvatelé musí bojovat o přežití proti nepřetržitým démonickým invazím. Když píši články o worldbuildingu, vždy zahrnuji pár příkladu ze světa Eledris, za účelem dodání inspirace čtenářům. Eledris nastartoval mé nadšení do kreativní práce, které vkládám do každého projektu, na kterém pracuji.",
+							"primaryButtonText": "Dotazy",
+							"secondaryButtonText": "Vzorek"
+						},
+						"artprompts": {
+							"title": "Art Prompts",
+							"imgAlt": "Ilustrace mobilního telefonu s logem Art Prompts na obrazovce. Telefon leží na papíru s tužkou.",
+							"description": "Art Prompts je jeden z mých největších osobních projektů. Jedná se webovou aplikaci, které dodávají inspiraci umělcům. Pro Art Prompts jsem naprogramoval web, aplikaci (600+ registrovaných uživatelů), interní API, Discord bota (7k+ serverů), a více. Práce na projektu zahrnuje dlouhodobý project management, integraci platební brány, OAuth systémy, a jiné komplexní funkce.",
+							"primaryButtonText": "Navštívit stránky",
+							"secondaryButtonText": "Přečíst studii"
+						},
+						"plagues": {
+							"title": "Pandemie ve worldbuildingu",
+							"imgAlt": "Ilustrace nemocné krysy.",
+							"description": "\"Pandemie ve worldbuildingu\" je 2 300 slov dlouhý článek, který jsem napsal pro svůj worldbuilding blog, Eledris. Tento článek popisuje, jak se pandemie tvoří, jaký dopad mají na společnosti, a analyzuje několik příkladu ze skutečného světa.",
+							"primaryButtonText": "Přečíst článek"
+						},
+						"palettey": {
+							"title": "Palettey",
+							"description": "Palettey je Discord bot, který generuje barevné palety na základě vložené barvy. Bot implementuje několik generačních algoritmů, a je nakódovaný v jazyce PHP pomocí knihovny DiscordPHP.",
+							"primaryButtonText": "Prohlédnout kód",
+							"secondaryButtonText": "Pozvat na server"
+						},
+						"eledrisblog": {
+							"title": "Eledris Blog",
+							"imgAlt": "Ilustrace muže s knihou na křesle.",
+							"description": "Eledris blog jsem stvořil jako zdroj užitečných informací a návodů pro world designery. Na tomto projektu jsem začal pracovat v roce 2019 a od té doby pro něj píši články, kdykoliv mám trochu volného času. Publikoval jsem již přes 50 článků, které čte okolo 100 návštěvníků denně. Ve druhé půlce roku 2026 plánují tyto webové stránky předělat.",
+							"primaryButtonText": "Navštívit stránky"
+						},
+						"forsakenland": {
+							"title": "Forsakenland",
+							"imgAlt": "Ilustrace vesmírné lodi ve tvaru velryby.",
+							"description": "Forsakenland je rozpracovaná grimdark sci-fi hra inspirovaná světem Warhammer 40k. Na tomto projektu pravidelně pracuji jako hlavní freelance world designer: vytvářím prostředí písečné planety Gylesian-3C. Zatím jsem pro tento projekt napsal přibližně 25 stran poznámek. Kliknutím na tlačítko níže si některé z nich můžete prohlédnout.",
+							"primaryButtonText": "Vzorek"
+						},
+						"freelanceworldbuilding": {
+							"title": "Freelance World Design",
+							"description": "Pracoval jsem na mnoha world design projektech jako freelance konzultant. V rámci těchto projektů jsem pracoval například na historii a geografii daného světa, nebo i na komplexních systémech magie.",
+							"primaryButtonText": "Otevřít vzorek"
+						},
+						"wumpi": {
+							"title": "Wumpi",
+							"description": "Wumpi (mn. č. slova *Wumpus*) je série open-source Discord botů, které vydávám na svém GitHub profilu. Uživatelé si mohou vybrat z mnoha různých botů, které lze rychle a snadno přidat na vlastní server. Mezi jejich funkce patří například vítaní nových členů, házení kostkami na DnD či postování roztomilého ASCII artu.",
+							"primaryButtonText": "Zobrazit na GitHubu"
+						},
+						"starfall": {
+							"title": "Starfall",
+							"description": "Starfall byl český blog, pro který jsem psal uživatelské návody a novinky týkající se online hry World of Warcraft. Tento blog již bohužel není dostupný, ale dodal mi hodně cenných zkušeností v psaní informativních prací na téma videoher."
+						},
+						"keywords": {
+							"title": "czech-keywords",
+							"description": "czech-keywords je nástroj na extrakci klíčových slov z českých textů. Funguje pomocí upraveného td–idf algoritmu nakódovaného v Perlu. Jeho zdroj a dokumentaci v češtině i angličtině můžete najít na GitHubu projektu.",
+							"primaryButtonText": "Prohlédnout kód",
+							"secondaryButtonText": "Dokumentace"
+						},
+						"prideflags": {
+							"title": "Pride Vlajky & Gradienty",
+							"imgAlt": "Ilustrace duhové pride vlajky.",
+							"description": "Pride Vlajky & Gradienty je plugin pro design software Figma. Umožňuje designerům vkládat pride vlajky a CSS gradienty do svých designů. Tento plugin jsem nakódoval v TypeScriptu pomocí Reactu.",
+							"primaryButtonText": "Nainstalovat",
+							"secondaryButtonText": "Prohlédnout kód"
+						},
+						"trezor": {
+							"title": "Trezor",
+							"imgAlt": "Hlavní stránka webu Trezor, růžové neobrutalistické vyhledávání v digitálním archívu.",
+							"description": "Trezor je neziskový projekt na kterém pracuji; jedná se o český digitální archív akademických prací s queer tématikou, které můžou být v blízké budoucnosti politicky ohrožené cenzurou. Na tomto projektu jsem lead developer, navrhuji zde celou architekturu, a implementuji server, web, i back-end systému. Trezor momentálně není přístupný veřejnosti, ale pracuji na sepsání krátké studie o něm."
+						},
+						"hkskins": {
+							"title": "HKSkins",
+							"imgAlt": "Screenshot webu HKSkins, který obsahuje tabulku skinů pro hru Hollow Knight.",
+							"description": "HKSkins je web, který archivuje organizovaný seznam skinů pro videohry *Hollow Knight (2017)* a *Hollow Knight: Silksong (2025)*. Tento web je postavený na frameworku Gatsby.js a využívá GraphQL pro zobrazení a organizování skinů pomocí metadat z JSON souborů ve filesystému projektu. HKSkins je můj nejpopulárnější projekt, s cca 3&nbsp;000 návštěvníky děnně.",
+							"primaryButtonText": "Navštívit stránky",
+							"secondaryButtonText": "Prohlédnout kód"
+						},
+						"terapielang": {
+							"title": "Webové stránky Terapie Lang",
+							"description": "Webové stránky pro terapeutickou praxi klienstva s vizuálním stylem vodových barev. Tento malý projekt byl velice zajímavou výzvou ve vytváření užitečného webu v požadovaném atypickém stylu.",
+							"primaryButtonText": "Navštívit stránky"
+						},
+						"homelab": {
+							"title": "Home server",
+							"description": "Posledním rokem na několika serverech u mě doma selfhostuji cca 40 webů a aplikací pro osobní i profesní důvody. Tento dlouhodobý projekt mě naučil spoustu užitečných dovedností v oboru serverové adminstrace, hlavně práci se systémy Promox a Docker. O mých home serverech plánuji brzy napsat delší článek na blog!"
+						}
+					}
+				},
+				"blog": {
+					"heading": "Nejnovější článek",
+					"description": "Pravidelně píši na [svůj blog](/blog) články v angličtině. Můj nejnovější článek můžete najít zde."
+				},
+				"technologies": {
+					"heading": "Nástroje",
+					"description": "Zde si můžete prohlédnout některé technologie a nástroje, které pravidelně při své práci používám. Kliknutím na technologii s černým obrysem zobrazíte stránku, kde detailně popisuji projekty, ve kterých jsem tuto technologii využil (zatím pouze anglicky).",
+					"emptyPage": "Pro tuto technologii jsem ještě nestihl sepsat detailní popis! Můžete se vrátit zpět na [hlavní stránku](/).",
+					"technology": {
+						"bootstrap": {
+							"title": "Bootstrap"
+						},
+						"css": {
+							"title": "CSS"
+						},
+						"debian": {
+							"title": "Debian"
+						},
+						"discord": {
+							"title": "Discord API"
+						},
+						"express": {
+							"title": "Express.js"
+						},
+						"figma": {
+							"title": "Figma"
+						},
+						"gatsby": {
+							"title": "Gatsby.js"
+						},
+						"git": {
+							"title": "git"
+						},
+						"html": {
+							"title": "HTML"
+						},
+						"javascript": {
+							"title": "JavaScript"
+						},
+						"mysql": {
+							"title": "MySQL"
+						},
+						"nextjs": {
+							"title": "Next.js"
+						},
+						"nodejs": {
+							"title": "Node.js"
+						},
+						"overleaf": {
+							"title": "Overleaf"
+						},
+						"perl": {
+							"title": "Perl"
+						},
+						"php": {
+							"title": "PHP"
+						},
+						"proxmox": {
+							"title": "Proxmox"
+						},
+						"react": {
+							"title": "React"
+						},
+						"sass": {
+							"title": "Sass"
+						},
+						"ubuntu": {
+							"title": "Ubuntu"
+						},
+						"wordpress": {
+							"title": "WordPress"
+						}
+					}
+				},
+				"testimonials": {
+					"heading": "Reference",
+					"description": "Co o mně a mých projektech říkají spokojení klienti a zákazníci.",
+					"contact": "Pokud jste se mnou pracovali a chtěli byste zanechat referenci, ozvěte se mi na contact@tadeasjun.com.",
+					"testimonial": {
+						"phillipbush": {
+							"text": "Pracovat s Tadeášem bylo příjemné při každé fázi plnění naší zakázky. Hodně se vyzná a dal nám mnoho originálních nápadů; už s ním pracujeme na dalším projektu. Určitě bych ho doporučil i ostatním!",
+							"attribution": "Phillip Bush, recenze na Fiverr (world design) [přeloženo z angličtiny]"
+						},
+						"jeremiahgigowski": {
+							"text": "Jedna z nejlepších aplikací pro prompty: obsahuje unikátní nápady, které Vás opravdu inspirují!",
+							"attribution": "Jeremiah Gigowski, recenze aplikace Art Prompts [přeloženo z angličtiny]"
+						}
+					}
+				},
+				"contact": {
+					"heading": "Kontakt",
+					"description": "Neváhejte se mi ozvat! Nabízím freelance world design, akademické a jiné naučné psaní, vývoj Android aplikací, Discord botů, projektů s Node.js, a mnoho dalšího. Můžete mi napsat na <a href='mailto:contact@tadeasjun.com' class='text-primary text-regular'>contact@tadeasjun.com</a>. Pokud si o mě nejdříve chcete něco málo přečíst, [podívejte se na mé CV](/assets/pdf/tadeasjun_cv_cs.pdf). Občas trávím čas na sociálních sítích; níže můžete nalézt odkazy na mé profily."
+				}
+			},
+			"blog": {
+				"meta": {
+					"title": "Blog"
+				},
+				"heading": "Články na blogu",
+				"description": "Na svém blogu [Eledris](https://eledris.com) píši články o worldbuildingu a kreativním psaní. Každý článek, který na Eledris vydám, mi zabere cca 200 hodin práce. Abych si občas dal pauzu od takto velkých projektů, a abych mohl rozšířit téma i mimo worldbuilding, založil jsem si menší blog na tomto webu. Zde píši kratší články zaměřené na programování, freelancing, a detailní výpisy mé práce. Články na tomto blogu jsou psané v angličtině.",
+				"rss": "Tento blog můžete odebírat pomocí <a href='/feed.xml' target='_blank'>RSS feedu</a>."
+			}
+		}
+	}
+}

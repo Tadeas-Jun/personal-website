@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Ubuntu
-i18n: home.technologies.technology.ubuntu.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/ubuntu.svg
 imageAlt: Ubuntu logo
+
 externalLink: https://sass-lang.com/
-shown: true
+
+i18nTitle: home.technologies.technology.ubuntu.title
+
 ---

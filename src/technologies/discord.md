@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Discord API
-i18n: home.technologies.technology.discord.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/discord.svg
 imageAlt: Discord logo
+
 externalLink: https://discord.com/developers/docs/
-shown: true
+
+i18nTitle: home.technologies.technology.discord.title
+
 ---

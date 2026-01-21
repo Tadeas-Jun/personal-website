@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: git
-i18n: home.technologies.technology.git.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/git.svg
 imageAlt: git logo
+
 externalLink: https://git-scm.com/
-shown: true
+
+i18nTitle: home.technologies.technology.git.title
+
 ---

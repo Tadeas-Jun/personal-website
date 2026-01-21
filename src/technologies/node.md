@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Node.js
-i18n: home.technologies.technology.nodejs.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/nodejs.svg
 imageAlt: Node.js logo
+
 externalLink: https://nodejs.org/en
-shown: true
+
+i18nTitle: home.technologies.technology.nodejs.title
+
 ---

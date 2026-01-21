@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Eleventy
-i18n: home.technologies.technology.eleventy.title
+
+layout: technology.njk
+shown: false
+
 image: /assets/img/technologies/eleventy.svg
 imageAlt: Eleventy logo
+
 externalLink: https://www.11ty.dev/
-shown: false
+
+i18nTitle: home.technologies.technology.eleventy.title
+
 ---

@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: MySQL
-i18n: home.technologies.technology.mysql.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/mysql.svg
 imageAlt: MySQL logo
+
 externalLink: https://www.mysql.com/
-shown: true
+
+i18nTitle: home.technologies.technology.mysql.title
+
 ---

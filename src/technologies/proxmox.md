@@ -1,9 +1,16 @@
 ---
 tags: technology
 title: Proxmox
-i18n: home.technologies.technology.proxmox.title
+
+layout: technology.njk
+shown: true
+
+
 image: /assets/img/technologies/proxmox.svg
 imageAlt: Proxmox logo
+
 externalLink: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
-shown: true
+
+i18nTitle: home.technologies.technology.proxmox.title
+
 ---

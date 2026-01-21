@@ -11,5 +11,5 @@
 
 /* SITE */
 	Language: Czech / English
-	Doctype:HTML5
+	Doctype: HTML5
 	IDE: VS Code, Filezilla

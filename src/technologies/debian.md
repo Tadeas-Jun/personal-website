@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Debian
-i18n: home.technologies.technology.debian.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/debian.svg
 imageAlt: Debian logo
+
 externalLink: https://www.debian.org/
-shown: true
+
+i18nTitle: home.technologies.technology.debian.title
+
 ---

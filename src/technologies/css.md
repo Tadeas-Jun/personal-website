@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: CSS
-i18n: home.technologies.technology.css.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/css.svg
 imageAlt: CSS logo
+
 externalLink: https://www.w3.org/Style/CSS/Overview.en.html
-shown: true
+
+i18nTitle: home.technologies.technology.css.title
+
 ---

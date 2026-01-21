@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Overleaf
-i18n: home.technologies.technology.overleaf.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/overleaf.svg
 imageAlt: Overleaf logo
+
 externalLink: https://www.overleaf.com/
-shown: true
+
+i18nTitle: home.technologies.technology.overleaf.title
+
 ---

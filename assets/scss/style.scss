@@ -1,6 +1,7 @@
 /* || Variables */
 $primary: #ff652f;
 $light: #FAFCFF;
+$grey: #C8C8C8;
 $dark: #2d2c2c;
 $font-family-base: 'Raleway', sans-serif;
 
@@ -48,10 +49,18 @@ html {
     color: $dark;
 }
 
+.alert > p {
+    margin: 0;
+}
+
 .alert.alert-light {
     border-color: $dark;
     background-color: $light;
     color: $dark;
+}
+
+.grey {
+    color: $grey;
 }
 
 
@@ -236,6 +245,15 @@ nav {
     color: $primary;
 }
 
+/* || Technology page */
+.technology-page .technology-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    margin-top: 5px;
+    max-width: 100%;
+    box-shadow: none !important;
+}
 
 /* || Blog section */
 .invisible-link {
@@ -243,13 +261,13 @@ nav {
     text-decoration: none;
 }
 
-.article-item {
+.article-item, .project-card-link {
     padding: 16px;
     border-left: $dark 2px solid;
     transition: 0.5s;
 }
 
-.article-item:hover {
+.article-item:hover, .project-card-link:hover {
     transform: translate(0, -4px);
     border-left: $primary 2px solid;
     background-color: #EAEAEA;
@@ -270,7 +288,7 @@ nav {
     opacity: 0.2;
 }
 
-.blog-post > h2 {
+.blog-post > h2, .technology-page > h2 {
     margin-top: 30px;
     font-size: 1.75rem;
     font-weight: normal;
@@ -280,7 +298,7 @@ nav {
     opacity: 0.25;
 }
 
-.blog-post img {
+.blog-post img, .technology-page img {
     display: block;
     border-radius: 8px;
     max-width: 80%;
@@ -288,9 +306,10 @@ nav {
     margin-right: auto;
     margin-top: 32px;
     margin-bottom: 32px;
+    box-shadow: -4px 8px 8px 0 rgba($color: $dark, $alpha: 0.2)
 }
 
-.blog-post code {
+.blog-post code, .technology-page code {
     margin: 0 2px;
     padding: 0 5px;
     background-color: #EAEAEA;
@@ -298,7 +317,7 @@ nav {
     color: $primary;
 }
 
-.blog-post pre code {
+.blog-post pre code, .technology-page pre code {
     background: none;
     display: inline-block;
     line-height: 1.5rem;
@@ -307,7 +326,7 @@ nav {
     padding: 0 16px 0 0;
 }
 
-.blog-post pre code::before {
+.blog-post pre code::before, .technology-page pre code::before {
     counter-increment: line;
     content: counter(line);
     display: inline-block;
@@ -319,7 +338,7 @@ nav {
     width: 3em;
 }
 
-.blog-post pre.code {
+.blog-post pre.code, .technology-page pre.code {
     color: $light;
     background: $dark;
     padding: 16px 0 16px 8px;
@@ -329,46 +348,48 @@ nav {
 }
 
 // Blog rainbow select colors
-.blog-post h1::selection {
+.blog-post h1::selection, .technology-page h1::selection {
     background:rgba(212,169,255,.25);
 }
-.blog-post h2::selection {
+.blog-post h2::selection, .technology-page h2::selection {
     background: rgba(255,150,155,.25);
 }
-.blog-post h3::selection {
+.blog-post h3::selection, .technology-page h3::selection {
     background: rgba(255,190,129,.25);
 }
-.blog-post a::selection {
+.blog-post a::selection, .technology-page a::selection {
     background: rgba(250,244,123,.25);
 }
-.blog-post b::selection {
+.blog-post b::selection, .technology-page b::selection {
     background: rgba(204,250,158,.25);
 }
-.blog-post em::selection {
+.blog-post em::selection, .technology-page em::selection {
     background: rgba(204,250,158,.25);
 }
-.blog-post li::selection {
+.blog-post li::selection, .technology-page li::selection {
     background: rgba(157,236,255,.25);
 }
 
-.blog-post p:nth-child(6n+1)::selection {
+.blog-post p:nth-child(6n+1)::selection, .technology-page p:nth-child(6n+1)::selection {
   background: rgba(255,150,155,.25);
 }
-.blog-post p:nth-child(6n+2)::selection {
+.blog-post p:nth-child(6n+2)::selection, .technology-page p:nth-child(6n+2)::selection {
     background: rgba(255,190,129,.25);
 }
-.blog-post p:nth-child(6n+3)::selection {
+.blog-post p:nth-child(6n+3)::selection, .technology-page p:nth-child(6n+3)::selection {
     background: rgba(250,244,123,.25);
 }
-.blog-post p:nth-child(6n+4)::selection {
+.blog-post p:nth-child(6n+4)::selection, .technology-page p:nth-child(6n+4)::selection {
     background: rgba(204,250,158,.25);
 }
-.blog-post p:nth-child(6n+5)::selection {
+.blog-post p:nth-child(6n+5)::selection, .technology-page p:nth-child(6n+5)::selection {
     background: rgba(157,236,255,.25);
 }
-.blog-post p:nth-child(6n+6)::selection {
+.blog-post p:nth-child(6n+6)::selection, .technology-page p:nth-child(6n+6)::selection {
     background:rgba(212,169,255,.25)
 }
+
+
 
 .alert-message {
     text-align: center;

@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg bg-light navbar-light py-3">
+	<div class="container">
+	<a href="/" class="navbar-brand">
+		<img class="img-fluid w-50 logo" src="/assets/img/logo.svg" alt="The logo of the website, comprising of the initials T.J." data-i18n="header.alt.logo">
+	</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+		<span class="bi bi-list h1"></span>
+	</button>
+	<div class="collapse navbar-collapse py-lg-0" id="navmenu">
+		<ul class="navbar-nav ms-auto py-3">
+		<li class="nav-item px-3">
+			<a href="/" class="nav-link" data-i18n="header.portfolio">Portfolio</a>
+		</li>
+		<li class="nav-item px-3">
+			<a href="/#projects" class="nav-link" data-i18n="header.projects">Projects</a>
+		</li>
+		<li class="nav-item px-3">
+			<a href="/blog/" class="nav-link" data-i18n="header.blog">Blog</a>
+		</li>
+		<li class="nav-item px-3">
+			<a href="/#contact" class="nav-link" data-i18n="header.chat">Let's chat</a>
+		</li>
+		<li class="nav-item dropdown" id="languageSelector">
+			<a class="px-3 nav-link" href="#" data-bs-toggle="dropdown"><i class="bi bi-translate"></i> <span id="displayLocale">en</span></a>
+			<ul class="dropdown-menu dropdown-menu dropdown-menu-start">
+			<li><a class="dropdown-item" href="#" data-locale="en">English</a></li>
+			<li><a class="dropdown-item" href="#" data-locale="cs">čeština</a></li>
+			</ul>
+		</li>
+		</ul>
+	</div>
+	</div>
+	<script defer>
+      // Highlight active navbar link
+      (function () {
+        document.querySelector("li.active") ?. removeClass('active').removeAttr('aria-current');
+        let link = document.querySelector('li > a[href="' + location.pathname + location.hash + '"]');
+        link ?. classList.add('active');
+        link ?. setAttribute('aria-current', 'page');
+      })();
+    </script>
+</nav>

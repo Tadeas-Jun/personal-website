@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Android
-i18n: home.technologies.technology.android.title
+
+layout: technology.njk
+shown: false
+
 image: /assets/img/technologies/android.svg
 imageAlt: Android logo
+
 externalLink: https://developer.android.com/
-shown: false
+
+i18nTitle: home.technologies.technology.android.title
+
 ---

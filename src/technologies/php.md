@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: PHP
-i18n: home.technologies.technology.php.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/php.svg
 imageAlt: PHP logo
+
 externalLink: https://www.php.net/
-shown: true
+
+i18nTitle: home.technologies.technology.php.title
+
 ---

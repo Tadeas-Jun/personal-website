@@ -1,0 +1,24 @@
+---
+layout: "base.njk"
+---
+
+{% block content %}
+<main>
+	<div class="container technology-page">
+		<div class="d-flex">
+			<a class="mx-2 invisible-link" href="{{ externalLink }}" target="_blank" rel="noreferrer">
+				<img src="{{ image }}" alt="{{ imageAlt }}" class="technology-icon" />
+			</a>
+			<h1 class="display-2 mx-2">
+				<a class="invisible-link" href="{{ externalLink }}" target="_blank" rel="noreferrer">{{ title }}</a>
+			</h1>
+		</div>
+		<hr />
+		{% if content | trim %}
+			{{ content | safe }}
+		{% else %}
+			<p data-i18n="home.technologies.emptyPage">I haven't written the description for this technology yet! Head back to <a href="/">the home page</a>.</p>
+		{% endif %}
+	</div>
+</main>
+{% endblock content %}

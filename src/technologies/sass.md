@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Sass
-i18n: home.technologies.technology.sass.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/sass.svg
 imageAlt: Sass logo
+
 externalLink: https://sass-lang.com/
-shown: true
+
+i18nTitle: home.technologies.technology.sass.title
+
 ---

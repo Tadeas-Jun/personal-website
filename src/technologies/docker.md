@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Docker
-i18n: home.technologies.technology.docker.title
+
+layout: technology.njk
+shown: false
+
 image: /assets/img/technologies/docker.svg
 imageAlt: Docker logo
+
 externalLink: https://www.docker.com/
-shown: false
+
+i18nTitle: home.technologies.technology.docker.title
+
 ---

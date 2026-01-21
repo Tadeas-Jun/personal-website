@@ -1,86 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tadeas Jun">
-    <meta name="keywords" content="world design, writing, software engineering, tadeas jun, portfolio">
-    <meta
-      name="description"
-      content="I am a world designer, writer, and a software engineer. Check out my portfolio website!">
-    <meta name="og:image" content="https://www.tadeasjun.com/assets/img/og-image.png">
-    <meta name="og:image:width" content="1920">
-    <meta name="og:image:height" content="500">
-    <meta property="og:image:type" content="image/png">
-    <title>{{ title }} | Tadeas Jun 🪐</title>
-    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/23.11.2/i18next.min.js" integrity="sha512-eQT9P9ihLS8/wO0VyBYZLzKujwqcFtx1fVK+VQU4JAYHOxLhAVI13QKBBy++DAJqFW4pkD5QWad07FoWdrFTVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="icon" href="/assets/img/logo-light.svg">
-    <script defer src="https://umami.tadeasjun.com/script.js" data-website-id="7cb45d35-5418-4524-9238-79b138bf7f50"></script>
-  </head>
+  {% include "meta/head.njk" %}
   <body>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3">
-      <div class="container">
-        <a href="/" class="navbar-brand">
-          <img class="img-fluid w-50 logo" src="/assets/img/logo.svg" alt="The logo of the website, comprising of the initials T.J.">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-          <span class="bi bi-list h1"></span>
-        </button>
-        <div class="collapse navbar-collapse py-lg-0" id="navmenu">
-          <ul class="navbar-nav ms-auto py-3">
-            <li class="nav-item px-3">
-              <a href="/" class="nav-link" data-i18n="header.portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item px-3">
-              <a href="/#projects" class="nav-link" data-i18n="header.projects">Projects</a>
-            </li>
-            <li class="nav-item px-3">
-              <a href="/blog/" class="nav-link" data-i18n="header.blog">Blog</a>
-            </li>
-            <li class="nav-item px-3">
-              <a href="/#contact" class="nav-link" data-i18n="header.chat">Let's chat</a>
-            </li>
-            <li class="nav-item dropdown" id="languageSelector">
-              <a class="px-3 nav-link" href="#" data-bs-toggle="dropdown"><i class="bi bi-translate"></i> <span id="displayLocale">en</span></a>
-              <ul class="dropdown-menu dropdown-menu dropdown-menu-start">
-                <li><a class="dropdown-item" href="#" data-locale="en">English</a></li>
-                <li><a class="dropdown-item" href="#" data-locale="cs">čeština</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--
-    <div class="alert-message">
-      <p><b></b></p>
-    </div>
-    -->
+    {% include "meta/navbar.njk" %}
+
+    <!-- Alert message, if any -->
+    <!-- {% include "meta/alert.njk" %} -->
+
+    <!-- Page content -->
     {% block content %}
       {{ content | safe }}
     {% endblock content %}
+
     <!-- Footer -->
-    <footer class="p-5 pb-2 bg-light text-center">
-      <div class="container">
-        <p class="footer" data-i18n="footer.copyright">Copyright &copy; 2023-2024 Tadeas Jun</p>
-      </div>
-    </footer>
+    {% include "meta/footer.njk" %}
+
     <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-      // Highlight active navbar link
-      (function () {
-        document.querySelector("li.active") ?. removeClass('active').removeAttr('aria-current');
-        let link = document.querySelector('li > a[href="' + location.pathname + location.hash + '"]');
-        link ?. classList.add('active');
-        link ?. setAttribute('aria-current', 'page');
-      })();
-    </script>
     <script>
       // Code block pre-processing
       (function () {

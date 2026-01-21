@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Figma
-i18n: home.technologies.technology.figma.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/figma.svg
 imageAlt: Figma logo
+
 externalLink: https://www.figma.com/
-shown: true
+
+i18nTitle: home.technologies.technology.figma.title
+
 ---

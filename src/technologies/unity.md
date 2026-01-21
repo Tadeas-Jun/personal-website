@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: Unity
-i18n: home.technologies.technology.unity.title
+
+layout: technology.njk
+shown: false
+
 image: /assets/img/technologies/unity.svg
 imageAlt: Unity logo
+
 externalLink: https://unity.com/
-shown: false
+
+i18nTitle: home.technologies.technology.unity.title
+
 ---

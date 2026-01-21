@@ -1,0 +1,245 @@
+{
+	"en": {
+		"portfolio": {
+			"header": {
+				"alt": {
+					"logo": "The logo of the website, comprising of the initials T.J."
+				},
+				"portfolio": "Portfolio",
+				"projects": "Projects",
+				"blog": "Blog",
+				"chat": "Let's chat"
+			},
+			"footer": {
+				"copyright": "Copyright &#169; 2023–2026 Tadeas Jun"
+			},
+			"home": {
+				"meta": {
+					"title": "Portfolio",
+					"description": "I am a world designer, writer, and a software engineer. Check out my portfolio website!"
+				},
+				"name": {
+					"first": "Tadeas",
+					"last": "Jun"
+				},
+				"pronouns": {
+					"he": "he",
+					"they": "they"
+				},
+				"heading": "World designer, writer, and software engineer.",
+				"subheading": "Fantasy worlds, non-fiction articles, optimized websites, Discord bots, oh my...",
+				"button": {
+					"chat": "Let's chat",
+					"resume": "My résumé"
+				},
+				"alt": {
+					"heroIllustration": "A placeholder illustration of a man standing next to a mobile phone."
+				},
+				"services": {
+					"heading": "What I can offer",
+					"worldbuilding": "I can offer you professional <span class='text-primary'>world design</span> for any story, comic, or game. I specialize in fantasy worldbuilding, but I have experience with soft sci&#8209;fi worlds as well. Besides creating a world from scratch to your liking, I also have experience with world design consultations and continuing an existing worldbuilding project.",
+					"writing": "I can offer you my <span class='text-primary'>writing</span> skills in the areas of niche blog writing, academic writing, and technical writing. I have university education in the English language and I have been writing informational articles about worldbuilding, writing, and coding on my blog since 2019. I can also serve as a proofreader and a style checker (I have experience with the MLA and APA formats).",
+					"coding": "I can offer you <span class='text-primary'>software engineering</span> and <span class='text-primary'>development</span> of static and dynamic websites, Discord bots, Android applications, and more. I've been interested in coding for a decade, and I've been actively in the industry for about 6 years. Through my industry experience, I can guarantee that the code I deliver will be readable, functional, and effective.",
+					"ai": "Read my statement on [AI and AI-based projects](/blog/ai)."
+				},
+				"projects": {
+					"coding": {
+						"heading": "Coding projects",
+						"description": "Check out some of my favorite and most recent coding projects. My writing & worldbuilding projects are listed below.",
+						"smaller": "Smaller coding projects"
+					},
+					"worldbuilding": {
+						"heading": "Worldbuilding & writing projects"
+					},
+					"project": {
+						"eledris": {
+							"title": "Eledris",
+							"imgAlt": "An illustration of several floating crystals, representative of the magic on the Eledris fantasy world.",
+							"description": "Eledris is my personal worldbuilding project. It's a grimdark fantasy setting whose inhabitants need to fight for their survival as the planet is under siege by the demonic hordes. When writing worldbuilding articles, I always showcase a part of Eledris to give worldbuilders some inspiration. Working on Eledris ignited my passion for worldbuilding, which I channel into my freelance world design projects.",
+							"primaryButtonText": "Ask me anything",
+							"secondaryButtonText": "Open sample"
+						},
+						"artprompts": {
+							"title": "Art Prompts",
+							"imgAlt": "An illustration of a mobile phone with the Art Prompts logo on its screen on top of a blank page of paper with a pencil.",
+							"description": "Art Prompts is one of my largest personal projects -- it's a fullstack web application designed inspire artists to draw every day. The project includes a website, web app (600+ registered users), internal API, a Discord bot (7k+ servers), and more. Implementing the project included longterm project management, payment gate integration, OAuth2 implementation, and other complex features.",
+							"primaryButtonText": "Visit website",
+							"secondaryButtonText": "Read case study"
+						},
+						"plagues": {
+							"title": "On Worldbuilding and Plagues",
+							"imgAlt": "An illustration of a diseased rat.",
+							"description": "*On Worldbuilding and Plagues* is a 2.3k word article I wrote for my worldbuilding blog, Eledris. The article details how pandemics form, what impact they have on societies, and provides some useful examples of real-world plagues for wordbuilders.",
+							"primaryButtonText": "Read article"
+						},
+						"palettey": {
+							"title": "Palettey",
+							"description": "Palettey is a Discord bot for generating color palettes based on an input color. It implements multiple palette-generating algorithms. The bot is coded in PHP and the DiscordPHP library.",
+							"primaryButtonText": "View source",
+							"secondaryButtonText": "Invite to server"
+						},
+						"eledrisblog": {
+							"title": "The Eledris Blog",
+							"description": "The Eledris Blog is a resource dedicated to worldbuilders. I started the blog back in 2019, and since then, I've been writing articles for it whenever I have a bit of time to spare. To date, I've written over 50 articles, and the blog is visited by around 100 people a day. In late 2026, I'm planning on working on a revamped version of the blog.",
+							"primaryButtonText": "Visit website"
+						},
+						"forsakenland": {
+							"title": "Forsakenland",
+							"imgAlt": "An illustration of a whale-shaped spaceship.",
+							"description": "Forsakenland is a work-in-progress grimdark sci‑fi game inspired by the world of Warhammer 40k. On this project, I work as the lead freelance world designer, creating the setting of Gylesian‑3C, a desert planet. I've created about 25 pages of notes so far; a sample can be seen by clicking the button below.",
+							"primaryButtonText": "Open sample"
+						},
+						"freelanceworldbuilding": {
+							"title": "Freelance World Design",
+							"description": "I've been a part of many world design projects as a freelance consultant. Some of these projects included creating original magic systems, history, and geography.",
+							"primaryButtonText": "Open sample"
+						},
+						"wumpi": {
+							"title": "Wumpi",
+							"description": "Wumpi (n. plural of *Wumpus*) is a series of open-source Discord bots that I'm releasing on my GitHub profile. They enable users to easily set up their own simple utility bots for simple tasks such as welcoming new members, rolling DnD dice, and post cute ASCII art.",
+							"primaryButtonText": "View on GitHub"
+						},
+						"starfall": {
+							"title": "Starfall",
+							"description": "Starfall was a Czech blog dedicated to user-friendly guides and news articles around the game World of Warcraft that I used to write for. While the blog unfortunately doesn't run anymore, it served as a valuable experience in writing about video games."
+						},
+						"keywords": {
+							"title": "czech-keywords",
+							"description": "czech-keywords is a keyword extraction tool written in Perl. It runs using a custom-modified formula based on the tf–idf algorithm. The entire source code, as well as documentation in both English and Czech can be found on GitHub.",
+							"primaryButtonText": "View source",
+							"secondaryButtonText": "Read docs"
+						},
+						"prideflags": {
+							"title": "Pride Flags & Gradients",
+							"description": "Pride Flags & Gradients is a queer-themed plugin for the design software Figma. It allows users to input various pride flags and pride-themed CSS gradients into their designs. The plugin is coded in TypeScript using React.",
+							"primaryButtonText": "Try it out",
+							"secondaryButtonText": "View source"
+						},
+						"trezor": {
+							"title": "Trezor",
+							"imgAlt": "The homepage of the Trezor website, a neobrutalist pink digital archive search page.",
+							"description": "Trezor is a non-profit project I'm working on; it's a Czech digital archive of academic works with queer topics that are in danger of being censored. I'm the lead developer of this project, designing the entire architecture and implementing the server, website, and back-end of the system. Public access to the website is currently limited, but I'm working on writing a short case study about it."
+						},
+						"hkskins": {
+							"title": "HKSkins",
+							"imgAlt": "A screenshot of the HKSkins website, showcasing a grid of skins for the game Hollow Knight.",
+							"description": "HKSkins is a website compiling an organized list of user-created skins for the games *Hollow Knight (2017)* and *Hollow Knight: Silksong (2025)*. The website runs on Gatsby.js and utilizes GraphQL to display and sort individual skins based on metadata in JSON files in the project's filesystem. HKSkins is by far my most visited website, with around 3&nbsp;000 visitors a day.",
+							"primaryButtonText": "Visit website",
+							"secondaryButtonText": "View source"
+						},
+						"terapielang": {
+							"title": "Terapie Lang website",
+							"description": "Terapie Lang is a website designed in a simplistic watercolor style for a client's therapy practice. This small project was an entertaining challenge in creating a useful website while matching the client's desired visual style.",
+							"primaryButtonText": "Visit website"
+						},
+						"homelab": {
+							"title": "Homelab",
+							"description": "I selfhost around 40 services and websites for personal and professional use on a series of servers at home. This long-term project taught me many skills in server administration, especially with the Proxmox virtualization platform and with Docker. I'm planning on releasing a longer article on the homelab soon!"
+						}
+					}
+				},
+				"blog": {
+					"heading": "Latest blog post",
+					"description": "I just released this post! Read more of them on [the blog page](/blog)."
+				},
+				"technologies": {
+					"heading": "Technologies",
+					"description": "Here are some of the technologies, tools, and software that I am comfortable working with. Click on a technology with a dark border to visit a page describing some of the projects I've worked on with that technology.",
+					"emptyPage": "I haven't written the description for this technology yet! Head back to [the home page](/).",
+					"technology": {
+						"bootstrap": {
+							"title": "Bootstrap"
+						},
+						"css": {
+							"title": "CSS"
+						},
+						"debian": {
+							"title": "Debian"
+						},
+						"discord": {
+							"title": "Discord API"
+						},
+						"express": {
+							"title": "Express.js"
+						},
+						"figma": {
+							"title": "Figma"
+						},
+						"gatsby": {
+							"title": "Gatsby.js"
+						},
+						"git": {
+							"title": "git"
+						},
+						"html": {
+							"title": "HTML"
+						},
+						"javascript": {
+							"title": "JavaScript"
+						},
+						"mysql": {
+							"title": "MySQL"
+						},
+						"nextjs": {
+							"title": "Next.js"
+						},
+						"nodejs": {
+							"title": "Node.js"
+						},
+						"overleaf": {
+							"title": "Overleaf"
+						},
+						"perl": {
+							"title": "Perl"
+						},
+						"php": {
+							"title": "PHP"
+						},
+						"proxmox": {
+							"title": "Proxmox"
+						},
+						"react": {
+							"title": "React"
+						},
+						"sass": {
+							"title": "Sass"
+						},
+						"ubuntu": {
+							"title": "Ubuntu"
+						},
+						"wordpress": {
+							"title": "WordPress"
+						}
+					}
+				},
+				"testimonials": {
+					"heading": "Testimonials",
+					"description": "What people say about me and my projects.",
+					"contact": "If you've worked with me and would like to leave a testimonial, please reach out to contact@tadeasjun.com.",
+					"testimonial": {
+						"phillipbush": {
+							"text": "[Tadeas] was awesome in every aspect of our project. Very knowledgeable and gave numerous ideas. We're already pursuing another project with him. Definitely would recommend to others!",
+							"attribution": "Phillip Bush, Fiverr review (world design)"
+						},
+						"jeremiahgigowski": {
+							"text": "This app is truly one of the best art prompt apps out there, it has unique ideas and phrases that really can make you feel inspired!",
+							"attribution": "Jeremiah Gigowski, review for the Art Prompts app"
+						}
+					}
+				},
+				"contact": {
+					"heading": "Contact me",
+					"description": "Let's chat! I offer freelance world design, academic and other non-fiction writing, coding Android apps, Discord bots, Node.js projects, and more. You can reach me over email at <a href='mailto:contact@tadeasjun.com' class='text-primary text-regular'>contact@tadeasjun.com</a>. If you want to learn more about me before reaching out, [check out my CV](/assets/pdf/tadeasjun_cv_en.pdf). I also hang out on social media; you can click the links below to reach me there."
+				}
+			},
+			"blog": {
+				"meta": {
+					"title": "Blog"
+				},
+				"heading": "Blog posts",
+				"description": "I write world design and writing articles over on [the Eledris Blog](https://eledris.com). Each article on Eledris takes about 200 hours of work. To take a break from articles that take so much work, and to allow myself to temporarily leave the worldbuilding niche, I've created this small blog to host my simpler articles, mainly focused on programming, freelancing, and case studies.",
+				"rss": "Subscribe to the blog using <a href='/feed.xml' target='_blank'>its RSS feed</a>!"
+			}
+		}
+	}
+}

@@ -1,9 +1,15 @@
 ---
 tags: technology
 title: HTML
-i18n: home.technologies.technology.html.title
+
+layout: technology.njk
+shown: true
+
 image: /assets/img/technologies/html.svg
 imageAlt: HTML logo
+
 externalLink: https://developer.mozilla.org/en-US/docs/Web/HTML
-shown: true
+
+i18nTitle: home.technologies.technology.html.title
+
 ---
