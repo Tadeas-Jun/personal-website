@@ -10,6 +10,14 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.2
+*2026-02-21*
+
+Articles:
+- Released *[Automatic backups on self-hosted Umami analytics via Docker](/blog/selfhosted-umami-docker-backups)*.
+
+---
+
 ## 2026.1
 *2026-01-21*
 
