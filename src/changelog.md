@@ -10,6 +10,15 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.3
+*2026-03-03*
+
+Articles:
+- Release *[BLEU score implementation in JavaScript](/blog/bleu-score-implementation-in-javascript)*.
+- Fixed slightly incorrect release date in *[Automatic backups on self-hosted Umami analytics via Docker](/blog/selfhosted-umami-docker-backups)*.
+
+---
+
 ## 2026.2
 *2026-02-21*
 
