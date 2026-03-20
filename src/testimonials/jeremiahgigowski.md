@@ -2,7 +2,7 @@
 tags: testimonial
 
 shown: true
-order: 1
+order: 2
 
 attribution: Jeremiah Gigowski, review for the Art Prompts app
 

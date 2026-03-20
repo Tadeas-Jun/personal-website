@@ -16,6 +16,10 @@ module.exports = function(eleventyConfig) {
 		return collectionsApi.getFilteredByTags("project").sort((a, b) => a.data.order - b.data.order);
 	});
 
+	eleventyConfig.addCollection("testimonials", async (collectionsApi) => {
+		return collectionsApi.getFilteredByTags("testimonial").sort((a, b) => a.data.order - b.data.order);
+	});
+
 	// Filters
 	const trimFilter = require('./src/_filters/trim.js');
 	eleventyConfig.addFilter("trim", trimFilter);

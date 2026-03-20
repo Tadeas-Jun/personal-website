@@ -10,6 +10,20 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.4
+*2026-03-20*
+
+Features:
+- Implemented the `order` data element for testimonials.
+
+Minor changes:
+- Moved the Testimonial section above the Technologies section on the homepage.
+
+Testimonials:
+- Alois Přibyl, Oáza Olomouc
+
+---
+
 ## 2026.3
 *2026-03-03*
 

@@ -2,7 +2,7 @@
 tags: testimonial
 
 shown: true
-order: 1
+order: 3
 
 attribution: Phillip Bush, Fiverr review (world design)
 
