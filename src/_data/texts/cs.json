@@ -3,7 +3,7 @@
 		"portfolio": {
 			"header": {
 				"alt": {
-					"logo": "Iniciály T. J., použité jako logo webové stránky"
+					"logo": "Iniciály T. J., použité jako logo webové stránky."
 				},
 				"portfolio": "Portfolio",
 				"projects": "Projekty",
@@ -26,8 +26,8 @@
 					"he": "on",
 					"they": "jeho"
 				},
-				"heading": "World designer, autor a vývojář",
-				"subheading": "Profesionálně buduji fantasy světy, píši informativní články, vyvíjím webové stránky, aplikace pro weby a Android, nebo třeba i Discord boty.",
+				"heading": "Full-stack vývojář webů a world designer na straně.",
+				"subheading": "Vyvíjím komplexní webové stránky a aplikace, píši informativní články, a třeba i buduji fantasy světy.",
 				"button": {
 					"chat": "Kontakt",
 					"resume": "Životopis"
@@ -39,14 +39,14 @@
 					"heading": "Co Vám mohu nabídnout",
 					"worldbuilding": "Nabízím profesionální <span class='text-primary'>world design</span> pro fiktivní příběhy, komiksy a hry. Specializuji se ve fantasy worldbuildingu, ale mám i zkušenosti se sci&#8209;fi světy. Dokáži vybudovat realistické prostředí, kultury, a historii pro jakýkoliv nový či existujicí projekt.",
 					"writing": "Nabízím své <span class='text-primary'>autorské</span> zkušenosti v oblasti informativních článků pro blogy či akademického a technického psaní. Vystudoval jsem anglický jazyk na Masarykově univerzitě, a od roku 2019 informativně píši o kreativním psaní, worldbuildingu, a vývoji softwaru. Mám také zkušenosti jako korektor gramatiky a formálních stylů (primárně MLA a APA).",
-					"coding": "Nabízím své schopnosti jako <span class='text-primary'>vývojář</span>. V posledních několika letech jsem nakódoval Android aplikace, Discord boty, a webové stránky (statické i dynamické). Zajímám se o programování již přes 10 let, a profesně se mu věnuji přibližně 6 let. Díky mým zkušenostem v oboru mohu Vám zaručit kód, který bude čitelný, funkční a efektivní.",
+					"coding": "Nabízím své schopnosti jako <span class='text-primary text-regular'>vývojář</span>. V posledních několika letech jsem nakódoval statické i dynamické webové stránky, Discord boty, Android aplikace, a mnoho dalšího. Profesně se programování věnuji přes 7 let, a za tu dobu jsem pracoval s různými technologiemi ve malých i velkých týmech. Díky mým zkušenostem v oboru mohu Vám zaručit kód, který bude čitelný, funkční a efektivní.",
 					"ai": "Prečtěte si mé vyjádření k [umělé inteligenci a projektům založených na AI](/blog/ai) (anglicky)."
 				},
 				"projects": {
 					"coding": {
-						"heading": "Software projekty",
-						"description": "Některé z programovacích projektů, na kterých jsem se podílel. Mé autorské projekty jsou vypsané níže.",
-						"smaller": "Menší software projekty"
+						"heading": "Vývojářské projekty",
+						"smaller": "Menší projekty",
+						"description": "Některé z programovacích projektů, na kterých jsem se podílel. Mé autorské projekty jsou vypsané níže."
 					},
 					"worldbuilding": {
 						"heading": "Worldbuilding & autorské projekty"
@@ -57,7 +57,7 @@
 							"imgAlt": "Ilustrace několika levitujících krystalů, které reprezentují magii ve fantasy světě Eledris.",
 							"description": "Eledris je můj osobní worldbuilding projekt. Jedná se o grimdark fantasy svět, jehož obyvatelé musí bojovat o přežití proti nepřetržitým démonickým invazím. Když píši články o worldbuildingu, vždy zahrnuji pár příkladu ze světa Eledris, za účelem dodání inspirace čtenářům. Eledris nastartoval mé nadšení do kreativní práce, které vkládám do každého projektu, na kterém pracuji.",
 							"primaryButtonText": "Dotazy",
-							"secondaryButtonText": "Vzorek"
+							"secondaryButtonText": "Otevřít vzorek"
 						},
 						"artprompts": {
 							"title": "Art Prompts",
@@ -80,7 +80,6 @@
 						},
 						"eledrisblog": {
 							"title": "Eledris Blog",
-							"imgAlt": "Ilustrace muže s knihou na křesle.",
 							"description": "Eledris blog jsem stvořil jako zdroj užitečných informací a návodů pro world designery. Na tomto projektu jsem začal pracovat v roce 2019 a od té doby pro něj píši články, kdykoliv mám trochu volného času. Publikoval jsem již přes 50 článků, které čte okolo 100 návštěvníků denně. Ve druhé půlce roku 2026 plánují tyto webové stránky předělat.",
 							"primaryButtonText": "Navštívit stránky"
 						},
@@ -88,7 +87,7 @@
 							"title": "Forsakenland",
 							"imgAlt": "Ilustrace vesmírné lodi ve tvaru velryby.",
 							"description": "Forsakenland je rozpracovaná grimdark sci-fi hra inspirovaná světem Warhammer 40k. Na tomto projektu pravidelně pracuji jako hlavní freelance world designer: vytvářím prostředí písečné planety Gylesian-3C. Zatím jsem pro tento projekt napsal přibližně 25 stran poznámek. Kliknutím na tlačítko níže si některé z nich můžete prohlédnout.",
-							"primaryButtonText": "Vzorek"
+							"primaryButtonText": "Otevřít vzorek"
 						},
 						"freelanceworldbuilding": {
 							"title": "Freelance World Design",
@@ -102,7 +101,7 @@
 						},
 						"starfall": {
 							"title": "Starfall",
-							"description": "Starfall byl český blog, pro který jsem psal uživatelské návody a novinky týkající se online hry World of Warcraft. Tento blog již bohužel není dostupný, ale dodal mi hodně cenných zkušeností v psaní informativních prací na téma videoher."
+							"description": "Starfall byl český blog, pro který jsem psal uživatelské návody a novinky týkající se online hry World of Warcraft. Tento blog již bohužel není dostupný, ale dodal mi hodně cenných zkušeností v psaní informativních článků na téma videoher a pracování s content management systémy."
 						},
 						"keywords": {
 							"title": "czech-keywords",
@@ -112,7 +111,6 @@
 						},
 						"prideflags": {
 							"title": "Pride Vlajky & Gradienty",
-							"imgAlt": "Ilustrace duhové pride vlajky.",
 							"description": "Pride Vlajky & Gradienty je plugin pro design software Figma. Umožňuje designerům vkládat pride vlajky a CSS gradienty do svých designů. Tento plugin jsem nakódoval v TypeScriptu pomocí Reactu.",
 							"primaryButtonText": "Nainstalovat",
 							"secondaryButtonText": "Prohlédnout kód"
@@ -125,18 +123,28 @@
 						"hkskins": {
 							"title": "HKSkins",
 							"imgAlt": "Screenshot webu HKSkins, který obsahuje tabulku skinů pro hru Hollow Knight.",
-							"description": "HKSkins je web, který archivuje organizovaný seznam skinů pro videohry *Hollow Knight (2017)* a *Hollow Knight: Silksong (2025)*. Tento web je postavený na frameworku Gatsby.js a využívá GraphQL pro zobrazení a organizování skinů pomocí metadat z JSON souborů ve filesystému projektu. HKSkins je můj nejpopulárnější projekt, s cca 3&nbsp;000 návštěvníky děnně.",
+							"description": "HKSkins je web, který archivuje organizovaný seznam skinů pro videohry *Hollow Knight* (2017) a *Hollow Knight: Silksong* (2025). Tento web je postavený na frameworku Gatsby.js a využívá GraphQL pro zobrazení a organizování skinů pomocí metadat z JSON souborů ve filesystému projektu. HKSkins je můj nejpopulárnější projekt, s cca 3&nbsp;000 návštěvníky děnně.",
 							"primaryButtonText": "Navštívit stránky",
 							"secondaryButtonText": "Prohlédnout kód"
 						},
 						"terapielang": {
-							"title": "Webové stránky Terapie Lang",
 							"description": "Webové stránky pro terapeutickou praxi klienstva s vizuálním stylem vodových barev. Tento malý projekt byl velice zajímavou výzvou ve vytváření užitečného webu v požadovaném atypickém stylu.",
-							"primaryButtonText": "Navštívit stránky"
+							"primaryButtonText": "Navštívit stránky",
+							"title": "Webové stránky Terapie Lang"
 						},
 						"homelab": {
 							"title": "Home server",
 							"description": "Posledním rokem na několika serverech u mě doma selfhostuji cca 40 webů a aplikací pro osobní i profesní důvody. Tento dlouhodobý projekt mě naučil spoustu užitečných dovedností v oboru serverové adminstrace, hlavně práci se systémy Promox a Docker. O mých home serverech plánuji brzy napsat delší článek na blog!"
+						},
+						"bestdivadlo": {
+							"title": "Stránka BEST divadla",
+							"primaryButtonText": "Navštívit stránky",
+							"description": "Brno English Speaking Theater (BEST) je brněnská divadelní skupina, pro kterou jsem psal webové stránky. Web je nastavený pomocí CMS Ghost: systém, který umožňuje členům skupiny jednoduše upravovat obsah webu bez mé pomoci. Tento web bude zveřejněný ke konci roku 2026."
+						},
+						"portfolio": {
+							"title": "Portfolio web",
+							"description": "Tuto portfolio webovou stránku jsem nakódoval pomocí frameworku 11ty, který mi dovoluje upravovat většinu obsahu v Markdownu. Kód tohoto projektu je dostupný na GitHubu!",
+							"secondaryButtonText": "Prohlédnout kód"
 						}
 					}
 				},
@@ -211,6 +219,12 @@
 						},
 						"wordpress": {
 							"title": "WordPress"
+						},
+						"ghost": {
+							"title": "Ghost"
+						},
+						"eleventy": {
+							"title": "Eleventy"
 						}
 					}
 				},
@@ -235,7 +249,7 @@
 				},
 				"contact": {
 					"heading": "Kontakt",
-					"description": "Neváhejte se mi ozvat! Nabízím freelance world design, akademické a jiné naučné psaní, vývoj Android aplikací, Discord botů, projektů s Node.js, a mnoho dalšího. Můžete mi napsat na <a href='mailto:contact@tadeasjun.com' class='text-primary text-regular'>contact@tadeasjun.com</a>. Pokud si o mě nejdříve chcete něco málo přečíst, [podívejte se na mé CV](/assets/pdf/tadeasjun_cv_cs.pdf). Občas trávím čas na sociálních sítích; níže můžete nalézt odkazy na mé profily."
+					"description": "Neváhejte se mi ozvat! Hledám práci jako full-stack vývojář webů v rámci React a Node.js projektů. Jako freelancer také nabízím své služby v oblasti world designu, akademickém a jiném naučném psaní, či vývoj Discord botů a dalších menších projektů. Můžete mi napsat na e-mail <a href='mailto:contact@tadeasjun.com' class='text-primary text-regular'>contact@tadeasjun.com</a>. Pokud si o mě nejdříve chcete něco málo přečíst, [podívejte se na mé CV](/assets/pdf/tadeasjun_cv_cs.pdf). Občas trávím čas na sociálních sítích; níže můžete nalézt odkazy na mé profily."
 				}
 			},
 			"blog": {
@@ -243,7 +257,7 @@
 					"title": "Blog"
 				},
 				"heading": "Články na blogu",
-				"description": "Na svém blogu [Eledris](https://eledris.com) píši články o worldbuildingu a kreativním psaní. Každý článek, který na Eledris vydám, mi zabere cca 200 hodin práce. Abych si občas dal pauzu od takto velkých projektů, a abych mohl rozšířit téma i mimo worldbuilding, založil jsem si menší blog na tomto webu. Zde píši kratší články zaměřené na programování, freelancing, a detailní výpisy mé práce. Články na tomto blogu jsou psané v angličtině.",
+				"description": "Na svém blogu [Eledris](https://eledris.com/) píši články o worldbuildingu a kreativním psaní. Každý článek, který na Eledris vydám, mi zabere cca 200 hodin práce. Abych si občas dal pauzu od takto velkých projektů, a abych mohl rozšířit téma i mimo worldbuilding, založil jsem si menší blog na tomto webu. Zde píši kratší články zaměřené na programování, freelancing, a detailní výpisy mé práce. Články na tomto blogu jsou psané v angličtině.",
 				"rss": "Tento blog můžete odebírat pomocí <a href='/feed.xml' target='_blank'>RSS feedu</a>."
 			}
 		}

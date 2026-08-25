@@ -8,7 +8,7 @@ module.exports = class {
         resolve: "values"
       },
       permalink: ({ pagination }) => {
-		const langKey = Object.keys(pagination.items[0])[0];
+		    const langKey = Object.keys(pagination.items[0])[0];
         return `i18n/${langKey}.json`;
       }
     };
@@ -16,7 +16,7 @@ module.exports = class {
 
   render({ pagination }) {
     const content = pagination.items[0];
-	const json = JSON.stringify(content, null, 2);
+	  const json = JSON.stringify(content, null, 2);
     return json;
   }
 };

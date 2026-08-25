@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Tadeas Jun">
+		<title>CV | Tadeas Jun 🪐</title>
+		<link href="/assets/css/cv.css" rel="stylesheet">
+		<link rel="icon" href="/assets/img/logo-light.svg">
+		<script defer src="https://umami.tadeasjun.com/script.js" data-website-id="7cb45d35-5418-4524-9238-79b138bf7f50"></script>
+	</head>
+	<body>
+		<div class="page">
+			{% include "cv/en/header.njk" %}
+			<div id="content">
+				<div id="body">
+					<h3 class="section-header">Experience</h3>
+					<div class="role">
+						<h3 class="role-header">Lead developer</h3>
+						<div class="experience">
+							<h4><strong>Oáza Olomouc – Trezor project</strong> (part-time)</h4>
+							<p class="small time-range">March 2025 – present</p>
+							<p>Architecture and implementation of a complex database and front-end website created for the archival of academic works. Management of small team of archivists.</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Art Prompts</strong> (self-employed)</h4>
+							<p class="small time-range">December 2019 – present</p>
+							<p>Complex project including database architecture, API and website design and development, and community management for a web application aimed at artists.</p>
+						</div>
+					</div>
+					<div class="role">
+						<h3 class="role-header">Software engineer</h3>
+						<div class="experience">
+							<h4><strong>Citace.com, s.r.o.</strong> (part-time)</h4>
+							<p class="small time-range">June 2023 – October 2024</p>
+							<p>Worked on productivity tools for students and academics using JS, React and PHP, including a cross-browser extension and a Word add-in. Implemented the website's localization system.</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Masaryk University</strong> (part-time)</h4>
+							<p class="small time-range">February 2022 – October 2023</p>
+							<p>Worked on the internal Information System for students and teachers using Perl, SQL, and JS. Created multiple applications for university professors.. The system is used by over 50&nbsp;000 users daily.</p>
+						</div>
+					</div>
+					<div class="role">
+						<h3 class="role-header">Developer & quality assurance</h3>
+						<div class="experience">
+							<h4><strong>Freelance projects</strong></h4>
+							<p class="small time-range">May 2020 – January 2023</p>
+							<p>Worked on several freelance projects, including chatbots built with NodeJS and the Discord API, game testing, and web applications.</p>
+						</div>
+					</div>
+					<div class="role">
+						<h3 class="role-header">Developer & writer</h3>
+						<div class="experience">
+							<h4><strong>Personal projects</strong></h4>
+							<p class="small time-range">February 2019 – present</p>
+							<p>Some of my personal projects include the Eledris blog about worldbuilding, the Art Prompts Android app and Discord bot, as well as several open-source Discord bots and an open-source Android app, Jots.</p>
+							<p>Many of my projects are available on my GitHub profile.</p>
+						</div>
+					</div>
+				</div>
+				{% include "cv/en/sidebar.njk" %}
+			</div>
+		</div>
+		<div class="page">
+			{% include "cv/en/header.njk" %}
+			<div id="content">
+				<div id="body">
+					<h3 class="section-header">Education</h3>
+					<div class="role">
+						<div class="experience">
+							<h4><strong>Master's studies in <em>English Language and Literature</em></strong></h4>
+							<p class="institution">Masaryk University, Faculty of Arts</p>
+							<p class="small time-range">2024 – present, Brno</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Bachelor's studies in <em>English Language and Literature</em></strong></h4>
+							<p class="institution">Masaryk University, Faculty of Arts</p>
+							<p class="small time-range">2021 – 2024, Brno</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Programming-oriented gymnasium</strong></h4>
+							<p class="institution">Gymnázium, Praha 6, Arabská 14</p>
+							<p class="small time-range">2017 – 2021, Prague</p>
+						</div>
+					</div>
+					<div id="portfolio-section">
+						<h3 class="section-header">Portfolio & case studies</h3>
+						<p>Visit my portfolio at <span class="primary"><strong>tadeasjun.com</strong></span> to view all of my personal projects, read some of my writing, and browse through case studies of my professional work. I try to regularly update the website with my newest work.</p>
+					</div>
+				</div>
+				{% include "cv/en/sidebar.njk" %}
+			</div>
+		</div>
+		<script type="text/javascript">
+			const tempTitle = document.title;
+			window.addEventListener('beforeprint', () => {
+				document.title = 'tadeasjun_cv_en';
+			});
+			window.addEventListener('afterprint', () => {
+				document.title = tempTitle;
+			});
+		</script>
+	</body>
+</html>

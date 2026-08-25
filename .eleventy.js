@@ -1,7 +1,6 @@
 module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("assets");
-	eleventyConfig.addPassthroughCopy("bootstrap");
 
 	// Plugins
 	const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -9,11 +8,11 @@ module.exports = function(eleventyConfig) {
 
 	// Collections
 	eleventyConfig.addCollection("technology", async (collectionsApi) => {
-		return collectionsApi.getFilteredByTags("technology").sort((a, b) => a.inputPath.localeCompare(b.inputPath) );
+		return collectionsApi.getFilteredByTags("technology").filter((t) => t.data.shown).sort((a, b) => a.inputPath.localeCompare(b.inputPath) );
 	});
 
 	eleventyConfig.addCollection("projects", async (collectionsApi) => {
-		return collectionsApi.getFilteredByTags("project").sort((a, b) => a.data.order - b.data.order);
+		return collectionsApi.getFilteredByTags("project").filter((p) => p.data.shown).sort((a, b) => a.data.order - b.data.order);
 	});
 
 	eleventyConfig.addCollection("testimonials", async (collectionsApi) => {
@@ -33,6 +32,9 @@ module.exports = function(eleventyConfig) {
 
 	const projectCardListShortcode = require('./src/_shortcodes/projectCardLink.js');
 	eleventyConfig.addShortcode("projectCardLink", projectCardListShortcode);
+
+	const blogCardShortcode = require('./src/_shortcodes/blogCard.js');
+	eleventyConfig.addShortcode("blogCard", blogCardShortcode);
 
 	return {
 

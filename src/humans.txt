@@ -2,14 +2,16 @@
 	Author: Tadeas Jun
 	Contact: contact [at] tadeasjun.com
 	GitHub: Tadeas-Jun
-	From: Brno, Czech Republic
+	Location: Brno, Czech Republic
 
-	Proofreader: Sarka Prevratilova
+	Proofreader: Šárka Převrátilová
 
 /* THANKS */
 	Readers: You!
 
 /* SITE */
+	Last update: see src/_data/meta.js
 	Language: Czech / English
 	Doctype: HTML5
-	IDE: VS Code, Filezilla
+	IDE: VS Code
+	Software: 11ty

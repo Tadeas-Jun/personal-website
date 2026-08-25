@@ -5,7 +5,6 @@ title: Jots
 shown: false
 type: link
 niche: coding
-order: 1
 
 secondaryButtonText: View source
 secondaryButtonLink: https://github.com/Tadeas-Jun/Jots

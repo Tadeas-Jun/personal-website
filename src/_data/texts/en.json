@@ -26,8 +26,8 @@
 					"he": "he",
 					"they": "they"
 				},
-				"heading": "World designer, writer, and software engineer.",
-				"subheading": "Fantasy worlds, non-fiction articles, optimized websites, Discord bots, oh my...",
+				"heading": "Full-stack web developer with a side of creative writing.",
+				"subheading": "Complex websites, Discord bots, fantasy worlds, non-fiction articles, oh my…",
 				"button": {
 					"chat": "Let's chat",
 					"resume": "My résumé"
@@ -39,7 +39,7 @@
 					"heading": "What I can offer",
 					"worldbuilding": "I can offer you professional <span class='text-primary'>world design</span> for any story, comic, or game. I specialize in fantasy worldbuilding, but I have experience with soft sci&#8209;fi worlds as well. Besides creating a world from scratch to your liking, I also have experience with world design consultations and continuing an existing worldbuilding project.",
 					"writing": "I can offer you my <span class='text-primary'>writing</span> skills in the areas of niche blog writing, academic writing, and technical writing. I have university education in the English language and I have been writing informational articles about worldbuilding, writing, and coding on my blog since 2019. I can also serve as a proofreader and a style checker (I have experience with the MLA and APA formats).",
-					"coding": "I can offer you <span class='text-primary'>software engineering</span> and <span class='text-primary'>development</span> of static and dynamic websites, Discord bots, Android applications, and more. I've been interested in coding for a decade, and I've been actively in the industry for about 6 years. Through my industry experience, I can guarantee that the code I deliver will be readable, functional, and effective.",
+					"coding": "I can offer you <span class='text-primary text-regular'>software engineering</span> of static websites, complex web apps, Discord bots, and many other projects. I've been in the industry for over 7 years, working with many incredibly diverse technologies in teams of various sizes. Through my industry experience, I can guarantee that the code I deliver will be readable, functional, and effective.",
 					"ai": "Read my statement on [AI and AI-based projects](/blog/ai)."
 				},
 				"projects": {
@@ -101,7 +101,7 @@
 						},
 						"starfall": {
 							"title": "Starfall",
-							"description": "Starfall was a Czech blog dedicated to user-friendly guides and news articles around the game World of Warcraft that I used to write for. While the blog unfortunately doesn't run anymore, it served as a valuable experience in writing about video games."
+							"description": "Starfall was a Czech blog dedicated to user-friendly guides and news articles around the game World of Warcraft that I used to write for. While the blog unfortunately doesn't run anymore, it served as a valuable experience in writing about video games and working with content management systems."
 						},
 						"keywords": {
 							"title": "czech-keywords",
@@ -135,6 +135,16 @@
 						"homelab": {
 							"title": "Homelab",
 							"description": "I selfhost around 40 services and websites for personal and professional use on a series of servers at home. This long-term project taught me many skills in server administration, especially with the Proxmox virtualization platform and with Docker. I'm planning on releasing a longer article on the homelab soon!"
+						},
+						"bestdivadlo": {
+							"title": "BEST website",
+							"description": "The Brno English Speaking Theater (BEST) is an amateur theater company in Brno, Czech Republic. I coded a small website for the company using Ghost as the content management system, allowing the company members to update the website easily without needing much of my input. The website will become public around the end of 2026.",
+							"primaryButtonText": "Visit website"
+						},
+						"portfolio": {
+							"title": "Portfolio website",
+							"description": "This portfolio site is coded in the 11ty static site generator, allowing me to edit a lot of the content using Markdown. The source code is available on GitHub!",
+							"secondaryButtonText": "View source"
 						}
 					}
 				},
@@ -209,6 +219,12 @@
 						},
 						"wordpress": {
 							"title": "WordPress"
+						},
+						"ghost": {
+							"title": "Ghost"
+						},
+						"eleventy": {
+							"title": "Eleventy"
 						}
 					}
 				},
@@ -233,7 +249,7 @@
 				},
 				"contact": {
 					"heading": "Contact me",
-					"description": "Let's chat! I offer freelance world design, academic and other non-fiction writing, coding Android apps, Discord bots, Node.js projects, and more. You can reach me over email at <a href='mailto:contact@tadeasjun.com' class='text-primary text-regular'>contact@tadeasjun.com</a>. If you want to learn more about me before reaching out, [check out my CV](/assets/pdf/tadeasjun_cv_en.pdf). I also hang out on social media; you can click the links below to reach me there."
+					"description": "Let's chat! I'm open to work as a full-stack web developer for React and Node.js projects. In a freelance capacity, I also offer work in world design, academic and other non-fiction writing, coding Discord bots, and more. You can reach me over email at <a href='mailto:contact@tadeasjun.com' class='text-primary text-regular'>contact@tadeasjun.com</a>. If you want to learn more about me before reaching out, [check out my CV](/assets/pdf/tadeasjun_cv_en.pdf). I also occasionally hang out on social media; you can click the links below to reach me there."
 				}
 			},
 			"blog": {

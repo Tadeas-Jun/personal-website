@@ -2,10 +2,9 @@
 tags: project
 title: Wumpi
 
-shown: true
+shown: false
 type: link
 niche: coding
-order: 4
 
 primaryButtonText: View on Github
 primaryButtonLink: https://github.com/stars/Tadeas-Jun/lists/wumpi/

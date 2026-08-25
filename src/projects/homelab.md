@@ -5,7 +5,7 @@ title: Homelab
 shown: true
 type: link
 niche: coding
-order: 2
+order: 6
 
 i18nTitle: home.projects.project.homelab.title
 i18nContent: home.projects.project.homelab.description

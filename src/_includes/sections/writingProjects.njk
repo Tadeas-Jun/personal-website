@@ -1,0 +1,20 @@
+<section id="projects" class="bg-light text-dark p-5 px-2 px-sm-5 text-center text-sm-start">
+	<div class="container">
+
+		<h2 class="display-3 mt-5" data-i18n="home.projects.worldbuilding.heading">Worldbuilding & writing projects</h2>
+
+		<div class="container pt-3 d-md-flex flex-wrap mb-4">
+		{% for project in collections.projects %}
+			{% if not project.data.niche == 'coding' and project.data.type == 'card' and project.data.shown %}
+				{% projectCardLarge project %}
+			{% endif %}
+		{% endfor %}
+		</div>
+
+		{% for project in collections.projects %}
+			{% if not project.data.niche == 'coding' and project.data.type == 'link' and project.data.shown %}
+				{% projectCardLink project %}
+			{% endif %}
+		{% endfor %}
+
+</section>

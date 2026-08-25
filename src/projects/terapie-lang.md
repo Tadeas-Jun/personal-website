@@ -5,7 +5,7 @@ title: Terapie Lang website
 shown: true
 type: link
 niche: coding
-order: 1
+order: 5
 
 primaryButtonText: Visit website
 primaryButtonLink: https://terapielang.cz

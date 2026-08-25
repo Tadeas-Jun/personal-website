@@ -13,7 +13,7 @@
         {% for comment in technology.data.extraComments %}
           <!-- {{ comment }} -->
         {% endfor %}
-        <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative {% if technology.content | trim %} border border-dark {% endif %}">
+        <div class="technology-card card my-lg-0 my-3 ratio ratio-1x1 position-relative" {% if technology.content | trim %} data-content="true" {% endif %}>
           <div class="card-body text-center">
             <img src="{{ technology.data.image }}" alt="{{ technology.data.imageAlt }}" class="technology-icon d-inline-block h-75"/>
             <p class="pt-2" data-i18n="{{ technology.data.i18nTitle }}">{{ technology.data.title }}</p>

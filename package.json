@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
-  "version": "2026.4",
-  "description": "🪐 The *tadeasjun.com* domain contains a small portfolio website for Tadeas Jun coded in Bootstrap in early 2023. **This repository is private.**",
+  "name": "personal-website",
+  "version": "2026.5",
+  "description": "The *tadeasjun.com* website contains Tadeas Jun's portfolio and personal blog.",
   "main": "index.js",
   "scripts": {
     "develop": "npx @11ty/eleventy --serve",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "bootstrap": "5.3.8",
     "markdown-it": "^14.1.0"
   }
 }

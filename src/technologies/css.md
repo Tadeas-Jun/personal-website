@@ -3,7 +3,7 @@ tags: technology
 title: CSS
 
 layout: technology.njk
-shown: true
+shown: false
 
 image: /assets/img/technologies/css.svg
 imageAlt: CSS logo

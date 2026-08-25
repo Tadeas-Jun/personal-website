@@ -17,7 +17,7 @@ $body-bg: $light;
 
 $navbar-light-active-color: $primary;
 
-@import "../../bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 @font-face {
     font-family: 'Raleway';
@@ -94,8 +94,8 @@ nav {
 /* Bisexual flag div */
 .bisexual {
 
-    height: $font-size-base;
-    width: $font-size-base;
+    height: 1rem;
+    width: 1rem;
     border-radius: 2px;
     z-index: 2;
     position: relative;
@@ -223,11 +223,23 @@ nav {
     width: 7.5rem;
     transition: 0.5s;
     font-size: 0.9rem;
+
+    &[data-content] {
+        border: 1px solid $dark;
+    }
 }
 
 .technology-card:hover {
-    background-color: $dark;
-    color: $light;
+
+    &[data-content] {
+        background-color: $dark;
+        color: $light;
+    }
+
+    &:not([data-content]) {
+        background-color: $grey;
+    }
+
 }
 
 .technology-icon {
@@ -389,14 +401,12 @@ nav {
     background:rgba(212,169,255,.25)
 }
 
-
-
 .alert-message {
     text-align: center;
     padding: 5px 5px;
 }
 .alert-message > p {
-margin: 0;
-padding: 0;
-color: #ff2f2f;
+    margin: 0;
+    padding: 0;
+    color: #ff2f2f;
 }

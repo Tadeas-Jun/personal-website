@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Tadeas Jun">
+		<title>CV | Tadeáš Jůn 🪐</title>
+		<link href="/assets/css/cv.css" rel="stylesheet">
+		<link rel="icon" href="/assets/img/logo-light.svg">
+		<script defer src="https://umami.tadeasjun.com/script.js" data-website-id="7cb45d35-5418-4524-9238-79b138bf7f50"></script>
+	</head>
+	<body>
+		<div class="page">
+			{% include "cv/cs/header.njk" %}
+			<div id="content">
+				<div id="body">
+					<h3 class="section-header">Pracovní zkušenosti</h3>
+					<div class="role">
+						<h3 class="role-header">Lead developer</h3>
+						<div class="experience">
+							<h4><strong>Oáza Olomouc – projekt Trezor</strong> (part-time)</h4>
+							<p class="small time-range">březen 2025 – dnes</p>
+							<p>Pracuji na architektuře a implementaci komplexního databázového systému, včetně front-endu webové aplikace, určeného pro archivování akademických prací, a vedu drobný archivářský tým.</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Art Prompts</strong> (živnostník)</h4>
+							<p class="small time-range">prosinec 2019 – dnes</p>
+							<p>V rámci osobního projektu pracuji na architektůře a implementaci složité databáze, API a webových stránek, na marketingu, a na spravování komunity.</p>
+						</div>
+					</div>
+					<div class="role">
+						<h3 class="role-header">Programátor</h3>
+						<div class="experience">
+							<h4><strong>Citace.com, s.r.o.</strong> (part-time)</h4>
+							<p class="small time-range">červenec 2023 – říjen 2024</p>
+							<p>Pracoval jsem na citačních nástrojích pro studenty a akademiky pomocí JS, React a PHP, včetně doplňků do prohlížečů a do MS Word. Implementoval jsem lokalizační systém webových stránek.</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Masarykova univerzita, Fakulta informatiky</strong> (part-time)</h4>
+							<p class="small time-range">únor 2022 – říjen 2023</p>
+							<p>Na Fakultě informatiky jsem pracoval jako programátor Informačního systému MU, s pomocí jazyků Perl, JS a SQL. Vytvořil jsem několik aplikací pro akademiky. IS používá přes 50&nbsp;000 uživatelů denně.</p>
+						</div>
+					</div>
+					<div class="role">
+						<h3 class="role-header">Vývojář & tester</h3>
+						<div class="experience">
+							<h4><strong>Freelance projekty</strong></h4>
+							<p class="small time-range">květen 2020 – leden 2023</p>
+							<p>Pracoval jsem na několika freelance projektech, například na chatbotech postavných na NodeJS a Discord API, nebo také alpha testování her.</p>
+						</div>
+					</div>
+					<div class="role">
+						<h3 class="role-header">Vývojář & writer</h3>
+						<div class="experience">
+							<h4><strong>Osobní projekty</strong></h4>
+							<p class="small time-range">únor 2019 – dnes</p>
+							<p>Ve volném čase pracuji na mnoha osobních projektech, včetně blogu Eledris, Android aplikace a Discord bota Art Prompts, a open-source Android aplikace Jots.</p>
+							<p>Několik mých osobních projektů je k dohledání na mém GitHub profilu.</p>
+						</div>
+					</div>
+				</div>
+				{% include "cv/cs/sidebar.njk" %}
+			</div>
+		</div>
+		<div class="page">
+			{% include "cv/cs/header.njk" %}
+			<div id="content">
+				<div id="body">
+					<h3 class="section-header">Vzdělání</h3>
+					<div class="role">
+						<div class="experience">
+							<h4><strong>Magisterské studium <em>English Language and Literature</em></strong></h4>
+							<p class="institution">Masarykova univerzita, Filozofická fakulta</p>
+							<p class="small time-range">2024 – dnes, Brno</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Bakalářské studium <em>English Language and Literature</em></strong></h4>
+							<p class="institution">Masarykova univerzita, Filozofická fakulta</p>
+							<p class="small time-range">2021 – 2024, Brno</p>
+						</div>
+						<div class="experience">
+							<h4><strong>Gymnázium, obor <em>Programování</em></strong></h4>
+							<p class="institution">Gymnázium, Praha 6, Arabská 14</p>
+							<p class="small time-range">2017 – 2021, Praha</p>
+						</div>
+					</div>
+					<div id="portfolio-section">
+						<h3 class="section-header">Portfolio & případové studie</h3>
+						<p>Na mém portfoliu na webu <span class="primary"><strong>tadeasjun.com</strong></span> můžete najít všechny mé osobní projety, některé z mých článků, a detailní případové studie z mých pracovních projektů. Webové stránky pravidelně aktualizuji s mou nejnovější prací.</p>
+					</div>
+				</div>
+				{% include "cv/cs/sidebar.njk" %}
+			</div>
+		</div>
+		<script type="text/javascript">
+			const tempTitle = document.title;
+			window.addEventListener('beforeprint', () => {
+				document.title = 'tadeasjun_cv_cs';
+			});
+			window.addEventListener('afterprint', () => {
+				document.title = tempTitle;
+			});
+		</script>
+	</body>
+</html>

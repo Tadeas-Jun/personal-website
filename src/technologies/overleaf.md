@@ -3,7 +3,7 @@ tags: technology
 title: Overleaf
 
 layout: technology.njk
-shown: true
+shown: false
 
 image: /assets/img/technologies/overleaf.svg
 imageAlt: Overleaf logo

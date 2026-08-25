@@ -10,6 +10,46 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.5
+*2026-08-25*
+
+Features:
+- Implemented the CV pages at `/cv/en` and `/cv/cs`.
+- Documented the website in the `README.md` file.
+- Added the `LICENSE.md` file.
+
+Minor changes:
+- Included `bootstrap` as an `npm` dependency.
+- Updated dependencies.
+- Moved the Technologies section between the Coding projects and Worldbuilding projects sections on the homepage.
+- Exported texts and translations into self-hosted Weblate instance.
+- Updated CV to `v2026.2 (2026-08-24)`.
+- Changed hover effect for non-detailed technology cards to be grey instead of black, further visually differentiating technologies without a filled in detail page.
+- Updated `humans.txt` file.
+- Updated `robots.txt` file with new AI bots.
+
+Projects:
+- Hidden *Wumpi* and *Palettey* from the Projects list on the homepage.
+- Added *BEST website* and *Portfolio website*.
+
+Technologies:
+- Hidden *CSS*, *Bootstrap*, *Overleaf*, *Ubuntu*, and *Wordpress* from the Technologies list on the homepage.
+- Shown *Eleventy* on the Technologies list on the homepage.
+- Updated the *Perl* logo.
+- Added the following detail pages:
+	- *[Perl](/technologies/perl)*
+	- *[Ghost](/technologies/ghost)*
+	- *[Next.js](/technologies/nextjs)*
+	- *[git](/technologies/git)*
+	- *[JavaScript](/technologies/javascript)*
+	- *[Discord API](/technologies/discord)*
+	- *[Proxmox](/technologies/proxmox)*
+	- *[Express.js](/technologies/express)*
+	- *[React](/technologies/react)*
+	- *[Eleventy](/technologies/eleventy)*
+
+---
+
 ## 2026.4
 *2026-03-20*
 
@@ -71,8 +111,8 @@ Minor changes:
 Articles:
 - Released *[Designing for long-term sustainability: Art Prompts revamp post-mortem](/blog/art-prompts-revamp)*.
 
-Technology details:
-- Added *[Gatsby.js](/technologies/gatsby)* page.
+Technologies:
+- Added *[Gatsby.js](/technologies/gatsby)* detail page.
 
 ---
 

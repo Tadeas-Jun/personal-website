@@ -1,0 +1,205 @@
+/* || Variables */
+$primary: #ff652f;
+$light: #FAFCFF;
+$grey: #C8C8C8;
+$dark: #2D2C2C;
+$font-family-base: 'Raleway', sans-serif;
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/fonts/Raleway.ttf');
+}
+
+/* || Styles */
+/* General */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FAFCFF;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0.5rem 0 0 0;
+  font-weight: 200;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+
+h4, p {
+  margin: 0;
+  font-weight: 200;
+  font-size: 12pt;
+}
+
+p.small {
+  font-size: 10pt;
+}
+
+.primary {
+  color: $primary;
+}
+
+.page {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 25px auto;
+  margin-bottom: 0.5cm;
+  box-shadow: -4px 8px 8px 0 rgba($color: $dark, $alpha: 0.2);
+  border-top: 0.33rem solid $primary;
+  padding: 0 3.75rem;
+  border-radius: 0.25rem;
+}
+
+/* Header */
+#header {
+
+  display: grid;
+  grid: auto / 36rem 12rem;
+  margin-top: 3rem;
+  letter-spacing: 0.1rem;
+
+  h1 {
+    margin-top: 0.5rem;
+    #name {
+      font-weight: 400;
+    }
+  }
+
+  #technology-icons {
+
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+
+    img {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+  #portrait {
+    text-align: right;
+    padding-right: 1rem;
+
+    img {
+      width: 7rem;
+      height: 7rem;
+      border-radius: 7rem;
+      box-shadow: 0 0.25rem 0.25rem 0 rgba($color: $dark, $alpha: 0.2);
+    }
+  }
+
+}
+
+/* Content */
+#content {
+  margin-top: 2rem;
+  display: grid;
+  grid: auto / 36rem 12rem;
+}
+
+/* Body */
+#body {
+
+  padding-right: 2rem;
+
+  h3.section-header {
+    margin: 0;
+    letter-spacing: 0.1rem;
+  }
+
+  .role {
+    margin-top: 0.5rem;
+
+    h3.role-header {
+      font-weight: 400;
+    }
+
+    .experience {
+      margin-top: 0.5rem;
+      margin-bottom: 1lh;
+
+      p.time-range, p.institution {
+        margin: 0.25rem 0;
+      }
+    }
+
+  }
+
+  #portfolio-section {
+    margin-top: 3rem;
+
+    p {
+      margin-top: 0.5lh;
+    }
+  }
+
+}
+
+/* Sidebar */
+#sidebar {
+
+  .section {
+    margin-bottom: 1lh;
+  }
+
+  hr {
+    width: 90%;
+    height: 0;
+    border: 0;
+    border-top: 0.125rem solid $primary;
+    border-radius: 1px;
+    margin-bottom: 1lh;
+  }
+
+  .link {
+    margin-left: 0.125rem;
+    margin-bottom: 0.5lh;
+    display: flex;
+    gap: 0.5rem;
+
+    img {
+      width: 1.1lh;
+      height: 1.1lh;
+    }
+
+    p {
+      padding-top: 1px;
+    }
+  }
+
+  #version {
+    opacity: 0.1;
+    font-size: 0.5rem;
+    text-align: end;
+    margin-top: 3rem;
+  }
+
+}
+
+/* || Print settings */
+@media print {
+
+  @page {
+    margin: 0;
+    page-orientation: upright;
+    size: A4;
+  }
+
+  .page {
+    margin: 0;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    break-after: page;
+  }
+}

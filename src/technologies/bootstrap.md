@@ -3,7 +3,7 @@ tags: technology
 title: Bootstrap
 
 layout: technology.njk
-shown: true
+shown: false
 
 image: /assets/img/technologies/bootstrap.svg
 imageAlt: Bootstrap logo

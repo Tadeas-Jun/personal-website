@@ -4,13 +4,7 @@
     <p class="lead" data-i18n="home.blog.description">I just released this post! Read more of them on <a href="/blog">the blog page</a>.</p>
     {% assign posts = collections.article | reverse %}
     {% for post in posts limit:1 %}
-		<a href="{{ post.url }}" class="invisible-link">
-			<div href="{{ post.url }}" class="my-5 article-item">
-				<h2 class="display-4 article-title">{{ post.data.title }}</h2>
-				<p>{{ post.data.description }}</p>
-				<p class="article-meta">{{ post.data.author }}, {{ post.data.releaseDate }}</p>
-			</div>
-		</a>
+		{% blogCard post %}
 	  {% endfor %}
   </div>
 </section>

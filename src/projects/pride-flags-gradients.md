@@ -5,7 +5,7 @@ title: Pride Flags & Gradients
 shown: true
 type: link
 niche: coding
-order: 6
+order: 8
 
 primaryButtonText: Try it out
 primaryButtonLink: https://www.figma.com/community/plugin/1002324870709884461

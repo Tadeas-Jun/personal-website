@@ -2,10 +2,9 @@
 tags: project
 title: Palettey
 
-shown: true
+shown: false
 type: link
 niche: coding
-order: 3
 
 primaryButtonText: View source
 primaryButtonLink: https://github.com/Tadeas-Jun/Palettey

@@ -3,7 +3,7 @@ tags: technology
 title: Ubuntu
 
 layout: technology.njk
-shown: true
+shown: false
 
 image: /assets/img/technologies/ubuntu.svg
 imageAlt: Ubuntu logo

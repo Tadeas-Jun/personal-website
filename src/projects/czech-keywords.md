@@ -5,7 +5,7 @@ title: czech-keywords
 shown: true
 type: link
 niche: coding
-order: 5
+order: 7
 
 primaryButtonText: View source
 primaryButtonLink: https://github.com/Tadeas-Jun/czech-keywords

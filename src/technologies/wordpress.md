@@ -3,7 +3,7 @@ tags: technology
 title: Wordpress
 
 layout: technology.njk
-shown: true
+shown: false
 
 image: /assets/img/technologies/wordpress.svg
 imageAlt: Wordpress logo
