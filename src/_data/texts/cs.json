@@ -11,7 +11,8 @@
 				"chat": "Kontakt"
 			},
 			"footer": {
-				"copyright": "Copyright &#169; 2023–2026 Tadeáš Jůn"
+				"copyright": "Copyright &#169; 2023–2026 Tadeáš Jůn",
+				"source": "Zdrojový kód"
 			},
 			"home": {
 				"meta": {

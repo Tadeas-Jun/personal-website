@@ -11,7 +11,8 @@
 				"chat": "Let's chat"
 			},
 			"footer": {
-				"copyright": "Copyright &#169; 2023–2026 Tadeas Jun"
+				"copyright": "Copyright &#169; 2023–2026 Tadeas Jun",
+				"source": "Source code available"
 			},
 			"home": {
 				"meta": {
