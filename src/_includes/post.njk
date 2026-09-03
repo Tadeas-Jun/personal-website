@@ -1,7 +1,11 @@
 ---
 layout: "base.njk"
-author: "Tadeas Jun"
-authorPronouns: "he/they"
+author:
+  name: "Tadeas Jun"
+  pronouns: "he/they"
+  bio: "Tadeas is a full-stack web developer and recreational writer. Their main project is Art&nbsp;Prompts, a web app for artists."
+  link: "/"
+  image: "/portraits/portrait_tadeasjun.png"
 ---
 
 {% block content %}
@@ -9,11 +13,15 @@ authorPronouns: "he/they"
 	<div class="container blog-post">
 		<h1 class="display-2">{{ title }}</h1>
 		{% if not hideMetadata %}
-			<p class="meta">by {{ author }} ({{ authorPronouns }}), {{ releaseDate }}</p>
+			<p class="meta">by {{ author.name }} ({{ author.pronouns }}). Published on {{ date }}. {{ (content | wordcount).toLocaleString() }} words.</p>
+		{% endif %}
+		{% if eledris %}
+			<p><em>This article was originally published on {{ eledrisReleaseDate }} on <a href="https://eledris.com/" target="_blank">the Eledris blog</a>. It has been moved here, with minor edits, in an effort to streamline the content of the Eledris blog to worldbuilding and writing articles.</em></p>
 		{% endif %}
 		{{ content | safe }}
 		{% if not hideMetadata %}
-			<p class=pt-5>Thanks for reading this article by {{ author }}! Have any thoughts, feedback, or just want to chat? Contact the author at <b>contact@tadeasjun.com</b>. Tip them on their <a href="https://paypal.me/TadeasJun" target="_blank">PayPal</a> or hire them as a world designer, writer, or software engineer via their <a href="/">Portfolio page</a>.</p>
+			<hr />
+			{% authorBlock author %}
 		{% endif %}
 	</div>
 </main>

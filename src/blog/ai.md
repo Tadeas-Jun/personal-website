@@ -2,9 +2,9 @@
 layout: "post.njk"
 title: "Statement on AI and AI-based projects"
 description: "My stance on working with artificial intelligence."
-releaseDate: "22 October 2024"
 date: "2024-10-22"
 tags: "article"
+hideMetadata: true
 ---
 
 As generative artificial intelligence becomes more and more prevalent in creative projects, I wanted to write a short statement on my stance on AI, both in my personal projects, and in commercial commissions.

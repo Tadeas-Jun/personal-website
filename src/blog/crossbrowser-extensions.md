@@ -2,7 +2,6 @@
 layout: "post.njk"
 title: "Coding cross-browser extensions"
 description: "Setting up an environment and workflow to publish extensions on Chrome, Firefox, Edge, and Safari with a single codebase."
-releaseDate: "23 November 2023"
 date: "2023-11-23"
 tags: "article"
 ---

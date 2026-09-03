@@ -10,6 +10,27 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.6
+*2026-09-03*
+
+Features:
+- Implemented the approximate word count in the blog post metadata section under each post's title.
+- Implemented the author block for under blog posts.
+
+Minor changes:
+- Moved the `demos` directory from the static `assets` directory to the `src/demos` location.
+- Moved the Eledris blog post disclaimer to the `post.njk` template based on frontmatter data instead of manually including it in each article that needs it.
+- Removed the `releaseDate` data from the frontmatters of blog posts, now using only ISO 8601 dates.
+- Increased the font weight in the CVs, because lighter font weights would clip the edges of some lines in the PDF formats.
+- Changed the contact navbar text from "Let's chat" to "Contact".
+- Added a horizontal separator under blog posts.
+
+Articles:
+- Hidden the metadata in the AI statement post.
+- Released *[My to-do system for codebases](/blog/todo-system)*.
+
+---
+
 ## 2026.5
 *2026-08-25*
 

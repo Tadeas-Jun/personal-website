@@ -2,7 +2,6 @@
 layout: "post.njk"
 title: "Tinting a background image with transparency in CSS"
 description: "A short case study on layers and masks."
-releaseDate: "24 March 2025"
 date: "2025-03-24"
 tags: "article"
 ---

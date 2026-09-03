@@ -2,6 +2,7 @@
 $primary: #ff652f;
 $light: #FAFCFF;
 $grey: #C8C8C8;
+$light-grey: #EAEAEA;
 $dark: #2d2c2c;
 $font-family-base: 'Raleway', sans-serif;
 
@@ -282,7 +283,7 @@ nav {
 .article-item:hover, .project-card-link:hover {
     transform: translate(0, -4px);
     border-left: $primary 2px solid;
-    background-color: #EAEAEA;
+    background-color: $light-grey;
     border-radius: 8px;
 }
 
@@ -324,7 +325,7 @@ nav {
 .blog-post code, .technology-page code {
     margin: 0 2px;
     padding: 0 5px;
-    background-color: #EAEAEA;
+    background-color: $light-grey;
     border-radius: 4px;
     color: $primary;
 }
@@ -401,6 +402,7 @@ nav {
     background:rgba(212,169,255,.25)
 }
 
+/* || Alerts */
 .alert-message {
     text-align: center;
     padding: 5px 5px;
@@ -409,4 +411,50 @@ nav {
     margin: 0;
     padding: 0;
     color: #ff2f2f;
+}
+
+/* || Author block */
+.author-block {
+
+    border-radius: 16px;
+    border-left: $primary 2px solid;
+    background-color: $light-grey;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+    & img.author-portrait {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 6px;
+    }
+
+    & div.author-data {
+
+        & p, h2 {
+            margin: 0;
+            margin-top: 8px;
+        }
+
+        & .author-name, .author-pronouns, .author-link {
+            text-align: center;
+        }
+
+        & .author-name {
+            margin-top: 0;
+        }
+
+        & .author-pronouns {
+            margin-top: 0;
+            opacity: 0.25;
+        }
+
+        & .author-link {
+            & a {
+                color: $dark;
+            }
+        }
+
+    }
+
 }

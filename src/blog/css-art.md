@@ -2,7 +2,6 @@
 layout: "post.njk"
 title: "Short adventures in CSS art"
 description: "A documentation of my one-day journey into art via code."
-releaseDate: "10 September 2023"
 date: "2023-09-10"
 tags: "article"
 ---
@@ -88,7 +87,7 @@ I know, I'm not proud of it either.
 With that being said, that was my first actual original artwork made entirely in CSS. After this small project, I moved on to something more classy and presentable -- and I tried making it somewhat interactive as well.
 
 ## Interactive art
-I didn't want to leave the thematic of pride art yet, so I've decided to pull up my GitHub repo for one of my older projects, the Figma [Pride Flags & Gradients](https://github.com/Tadeas-Jun/figma-pride) plugin, and reuse some of the CSS I wrote for that. I ended up creating 'tiny pride flags', a small project I am actually quite proud of. You can check it out [here](/assets/demos/pride-flags). If you don't want to play with it yourself, here's a short GIF of it.
+I didn't want to leave the thematic of pride art yet, so I've decided to pull up my GitHub repo for one of my older projects, the Figma [Pride Flags & Gradients](https://github.com/Tadeas-Jun/figma-pride) plugin, and reuse some of the CSS I wrote for that. I ended up creating 'tiny pride flags', a small project I am actually quite proud of. You can check it out [here](/demos/pride-flags). If you don't want to play with it yourself, here's a short GIF of it.
 
 ![A grid of 15 small pride flags.](/assets/img/blog/css-prideflags.gif)
 

@@ -2,12 +2,11 @@
 layout: "post.njk"
 title: "How to design breathtaking 2D platformer levels"
 description: "An examination of the level design of 2018's Celeste."
-releaseDate: "31 August 2024"
 date: "2024-08-31"
 tags: "article"
+eledris: true
+eledrisReleaseDate: "2019-10-21"
 ---
-
-*This article was originally published on the 21st of October 2019 on [the Eledris blog](https://eledris.com/). It has been moved here, with minor edits, in an effort to streamline the content of the Eledris blog to worldbuilding and writing articles.*
 
 Platformers have been popular since the dawn of games; from Super Mario Bros. of 1985 to Celeste of today. Good level design is one of the most essential parts of a platformer. Want to design breathtaking levels for your game?
 

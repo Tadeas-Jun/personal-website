@@ -2,7 +2,6 @@
 layout: "post.njk"
 title: "Automatic backups on self-hosted Umami analytics via Docker"
 description: "A very short post that I didn't find anywhere else on the internet."
-releaseDate: "21 February 2026"
 date: "2026-02-21"
 tags: "article"
 ---

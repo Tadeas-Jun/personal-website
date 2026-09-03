@@ -36,6 +36,9 @@ module.exports = function(eleventyConfig) {
 	const blogCardShortcode = require('./src/_shortcodes/blogCard.js');
 	eleventyConfig.addShortcode("blogCard", blogCardShortcode);
 
+	const authorBlockShortcode = require('./src/_shortcodes/authorBlock.js');
+	eleventyConfig.addShortcode("authorBlock", authorBlockShortcode);
+
 	return {
 
 		passthroughFileCopy: true,

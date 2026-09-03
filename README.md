@@ -26,7 +26,6 @@ Some blog posts I'd like to write in the future include:
 I think personal websites should be a constant work-in-progress. Here are some things I'd like to do when I'm bored on a spare weekend:
 - Translation system for technology detail pages and blog posts
 - Copy button for code blocks in blog posts
-- Word count on blog posts
 - French translation
 
 ## Contributing

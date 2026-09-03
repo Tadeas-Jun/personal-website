@@ -2,7 +2,6 @@
 layout: "post.njk"
 title: "BLEU score implementation in JavaScript"
 description: "Rewriting a lot of Python code into JS because seemingly nobody has done it before."
-releaseDate: "3 March 2026"
 date: "2026-03-03"
 tags: "article"
 ---

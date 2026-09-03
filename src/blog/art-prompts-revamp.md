@@ -2,7 +2,6 @@
 layout: "post.njk"
 title: "Designing for long-term sustainability: Art Prompts revamp post-mortem"
 description: "A year-long journey of extensive revamping."
-releaseDate: "10 November 2025"
 date: "2025-11-10"
 tags: "article"
 ---

@@ -2,7 +2,6 @@
 layout: "post.njk"
 title: "Collecting Hollow Knight skins"
 description: "A reflection on a decentralized internet through the lens of a silly 10 GB collection and a month of my free time."
-releaseDate: "25 December 2024"
 date: "2024-12-25"
 tags: "article"
 ---
