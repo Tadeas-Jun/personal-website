@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "version": "2026.6",
+  "version": "2026.7",
   "description": "The *tadeasjun.com* website contains Tadeas Jun's portfolio and personal blog.",
   "main": "index.js",
   "scripts": {

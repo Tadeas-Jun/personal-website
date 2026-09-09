@@ -10,6 +10,14 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.7
+*2026-09-09*
+
+Minor changes:
+- Fixed typo in the English CV (doubled period in the Experiences -- Masaryk University section).
+
+---
+
 ## 2026.6
 *2026-09-03*
 
