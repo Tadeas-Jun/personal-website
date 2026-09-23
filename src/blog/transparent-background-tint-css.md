@@ -4,6 +4,9 @@ title: "Tinting a background image with transparency in CSS"
 description: "A short case study on layers and masks."
 date: "2025-03-24"
 tags: "article"
+categories:
+  - software engineering
+  - technical guide
 ---
 
 I was recently working on a small website for one of my client's therapy practice, the design of which was inspired by a painting art style. In order to allow the client to change the colors of the website themselves, I wanted to make the textures of the design in greyscale and then tint it via CSS. This turned out to be more complicated than I expected, and I didn't really find a lot of people discussing this topic online. I've decided to write out my approach to tinting a background texture which has transparent parts in the hopes that this article will help developers working on the same issue.

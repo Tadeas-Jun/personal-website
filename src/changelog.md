@@ -10,6 +10,21 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.8
+*2026-09-23*
+
+Features:
+ - Implemented the category system for blog posts.
+ - Added the [categories](/blog/categories) page, listing all categories used in the blog and their posts.
+ - Backfilled categories to all blog posts.
+ - Added individual category pages for each blog post category, listing posts in that category (e.g. [/blog/category/art-prompts](/blog/category/art-prompts)).
+
+Minor changes:
+ - Removed the rainbow colored text selection blocks.
+ - Added a `rel="me"` link to my GitHub profile in the website head.
+
+---
+
 ## 2026.7
 *2026-09-09*
 

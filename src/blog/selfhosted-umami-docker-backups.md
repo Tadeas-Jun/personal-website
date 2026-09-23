@@ -4,6 +4,9 @@ title: "Automatic backups on self-hosted Umami analytics via Docker"
 description: "A very short post that I didn't find anywhere else on the internet."
 date: "2026-02-21"
 tags: "article"
+categories:
+  - software engineering
+  - technical guide
 ---
 
 I was recently setting up [Umami analytics](https://umami.is/) for a client on a VPS, and I wanted to set up automated backups of the data. As far as I can tell, Umami doesn't have an official guide for this, and other guides I found online were either about outdated Umami versions or just recommending you snapshot the entire server to back up Umami. To be clear, you **should** snapshot the entire server regularly, but also doing that just to back up a few database tables is overkill. Thus this short post on how to back up just the data; let's get straight to the point.

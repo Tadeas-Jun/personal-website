@@ -19,12 +19,58 @@ module.exports = function(eleventyConfig) {
 		return collectionsApi.getFilteredByTags("testimonial").sort((a, b) => a.data.order - b.data.order);
 	});
 
+	// Blog
+	eleventyConfig.addCollection("categories", async (collectionsApi) => {
+
+		// Get all unique categories from all posts, count the articles, and save the date of the most recent post.
+		const categories = {};
+		const posts = collectionsApi.getFilteredByTags("article");
+
+		posts.forEach((p) => {
+			const postCategories = p.data.categories;
+			postCategories?.forEach((c) => {
+
+				if (!categories[c]) {
+
+					categories[c] = {
+						name: c,
+						count: 1,
+						lastUpdate: p.data.date,
+					};
+
+				} else {
+
+					categories[c].count++;
+
+					if (categories[c].lastUpdate < p.data.date) {
+						categories[c].lastUpdate = p.data.date;
+					}
+				}
+
+			});
+		});
+
+		// Sort categories by last updated date, and then alphabetically
+		const sortedCategories = Object.values(categories).sort(
+			(a, b) => (
+				b.lastUpdate.localeCompare(a.lastUpdate) ||
+				a.name.localeCompare(b.name)
+			)
+		);
+
+		return sortedCategories;
+
+	});
+
 	// Filters
 	const trimFilter = require('./src/_filters/trim.js');
 	eleventyConfig.addFilter("trim", trimFilter);
 
 	const toPlainTextFilter = require('./src/_filters/toPlainText.js');
 	eleventyConfig.addFilter("toPlainText", toPlainTextFilter);
+
+	const postsWithCategoryFilter = require('./src/_filters/postsWithCategory.js');
+	eleventyConfig.addFilter("postsWithCategory", postsWithCategoryFilter);
 
 	// Shortcodes
 	const projectCardLargeShortcode = require('./src/_shortcodes/projectCardLarge.js');
@@ -38,6 +84,9 @@ module.exports = function(eleventyConfig) {
 
 	const authorBlockShortcode = require('./src/_shortcodes/authorBlock.js');
 	eleventyConfig.addShortcode("authorBlock", authorBlockShortcode);
+
+	const categoryLinkShortcode = require('./src/_shortcodes/categoryLink.js');
+	eleventyConfig.addShortcode("categoryLink", categoryLinkShortcode);
 
 	return {
 

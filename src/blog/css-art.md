@@ -4,6 +4,8 @@ title: "Short adventures in CSS art"
 description: "A documentation of my one-day journey into art via code."
 date: "2023-09-10"
 tags: "article"
+categories:
+  - weekend projects
 ---
 
 CSS art is something I have always admired from a distance. With a skilled developer and a large amount of time, CSS alone can be incredibly powerful, and people have been able to create amazing works of art without any actual illustrations required. This weekend, I've decided to finally try my hand at it, and I'd like to quickly document my journey.

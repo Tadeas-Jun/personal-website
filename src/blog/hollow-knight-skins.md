@@ -4,6 +4,9 @@ title: "Collecting Hollow Knight skins"
 description: "A reflection on a decentralized internet through the lens of a silly 10 GB collection and a month of my free time."
 date: "2024-12-25"
 tags: "article"
+categories:
+  - case study
+  - philosophy
 ---
 
 I have been spending a lot of my free time building up my home lab. I'm running Proxmox on a second-hand desktop computer, as well as some extras with Raspberry Pis. I'm planning on writing a larger article on some homelabbing topics in the future, but before that, I wanted to take a second to reflect on the results of a month of my free time -- an approximately 10 GB large collection of user-created skins for the 2017 game, Hollow Knight.

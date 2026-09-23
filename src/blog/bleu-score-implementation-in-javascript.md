@@ -4,6 +4,10 @@ title: "BLEU score implementation in JavaScript"
 description: "Rewriting a lot of Python code into JS because seemingly nobody has done it before."
 date: "2026-03-03"
 tags: "article"
+categories:
+  - Art Prompts
+  - software engineering
+  - technical guide
 ---
 
 Today I was working a bit on [Art Prompts](https://artprompts.app), and I wanted to implement an admin feature that's been on my TODO list for quite a while: checking if I don't happen to have duplicate prompts in the database. Since I've been working on the project for years, from time to time it happened that I screwed something up in a spreadsheet somewhere, or straight up just forgot about a prompt that I came up with years ago, and I ended up inserting two prompts that were very similar to each other.

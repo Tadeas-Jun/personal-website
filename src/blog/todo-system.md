@@ -4,6 +4,8 @@ title: "My to-do system for codebases"
 description: "A small convention I've developed for myself over the years."
 date: "2026-09-03"
 tags: "article"
+categories:
+  - software engineering
 ---
 
 Over the years, I've developed many personal and professional projects on which I was the sole developer. Some of these, such as [Art Prompts](https:/artprompts.app/), are codebases with many tens of thousands lines of code, where project management and organization is very important. Throughout these projects, I've worked out a system of writing to-do comments that helps me stay organized. This blog post briefly outlines this system, just in case anyone was looking for any inspiration.

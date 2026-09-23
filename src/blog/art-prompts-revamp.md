@@ -4,6 +4,10 @@ title: "Designing for long-term sustainability: Art Prompts revamp post-mortem"
 description: "A year-long journey of extensive revamping."
 date: "2025-11-10"
 tags: "article"
+categories:
+  - Art Prompts
+  - case study
+  - software engineering
 ---
 
 In the past year, I've revisited my largest personal project, Art Prompts, and gave it a complete revamp. As is always the case with these projects, it took significantly longer than I expected, but I've finally released the revamped version in late October 2025. In order to document this journey and share some of my thoughts, I wanted to write a quick case study for the revamp (spoiler alert: it did not end up being a "quick" case study). This article won't go into a huge amount of technical details, rather focusing on the philosophical choices I made throughout the year. The main tenet of this revamp was sustainability: this new version should be able to run without any of my input for months or even years.

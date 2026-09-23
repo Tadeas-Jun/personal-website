@@ -4,6 +4,9 @@ title: "How to design breathtaking 2D platformer levels"
 description: "An examination of the level design of 2018's Celeste."
 date: "2024-08-31"
 tags: "article"
+categories:
+  - software engineering
+  - game development
 eledris: true
 eledrisReleaseDate: "2019-10-21"
 ---

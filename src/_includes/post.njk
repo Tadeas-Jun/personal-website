@@ -13,7 +13,12 @@ author:
 	<div class="container blog-post">
 		<h1 class="display-2">{{ title }}</h1>
 		{% if not hideMetadata %}
-			<p class="meta">by {{ author.name }} ({{ author.pronouns }}). Published on {{ date }}. {{ (content | wordcount).toLocaleString() }} words.</p>
+			<p class="grey mb-0">by {{ author.name }} ({{ author.pronouns }}). Published on {{ date }}. {{ (content | wordcount).toLocaleString() }} words.</p>
+			<div class="categoryLinks mt-1 mb-3">
+				{% for category in categories %}
+					{% categoryLink category, category | slugify %}
+				{% endfor %}
+			</div>
 		{% endif %}
 		{% if eledris %}
 			<p><em>This article was originally published on {{ eledrisReleaseDate }} on <a href="https://eledris.com/" target="_blank">the Eledris blog</a>. It has been moved here, with minor edits, in an effort to streamline the content of the Eledris blog to worldbuilding and writing articles.</em></p>

@@ -307,10 +307,6 @@ nav {
     font-weight: normal;
 }
 
-.blog-post .meta {
-    opacity: 0.25;
-}
-
 .blog-post img, .technology-page img {
     display: block;
     border-radius: 8px;
@@ -360,46 +356,22 @@ nav {
     counter-reset: line;
 }
 
-// Blog rainbow select colors
-.blog-post h1::selection, .technology-page h1::selection {
-    background:rgba(212,169,255,.25);
-}
-.blog-post h2::selection, .technology-page h2::selection {
-    background: rgba(255,150,155,.25);
-}
-.blog-post h3::selection, .technology-page h3::selection {
-    background: rgba(255,190,129,.25);
-}
-.blog-post a::selection, .technology-page a::selection {
-    background: rgba(250,244,123,.25);
-}
-.blog-post b::selection, .technology-page b::selection {
-    background: rgba(204,250,158,.25);
-}
-.blog-post em::selection, .technology-page em::selection {
-    background: rgba(204,250,158,.25);
-}
-.blog-post li::selection, .technology-page li::selection {
-    background: rgba(157,236,255,.25);
-}
+.categoryLinks {
 
-.blog-post p:nth-child(6n+1)::selection, .technology-page p:nth-child(6n+1)::selection {
-  background: rgba(255,150,155,.25);
-}
-.blog-post p:nth-child(6n+2)::selection, .technology-page p:nth-child(6n+2)::selection {
-    background: rgba(255,190,129,.25);
-}
-.blog-post p:nth-child(6n+3)::selection, .technology-page p:nth-child(6n+3)::selection {
-    background: rgba(250,244,123,.25);
-}
-.blog-post p:nth-child(6n+4)::selection, .technology-page p:nth-child(6n+4)::selection {
-    background: rgba(204,250,158,.25);
-}
-.blog-post p:nth-child(6n+5)::selection, .technology-page p:nth-child(6n+5)::selection {
-    background: rgba(157,236,255,.25);
-}
-.blog-post p:nth-child(6n+6)::selection, .technology-page p:nth-child(6n+6)::selection {
-    background:rgba(212,169,255,.25)
+    display: flex;
+    gap: 16px;
+
+    .categoryLink {
+        margin: 0;
+
+        img {
+            display: inline;
+            box-shadow: none;
+            border-radius: 0;
+            margin: 0;
+        }
+    }
+
 }
 
 /* || Alerts */

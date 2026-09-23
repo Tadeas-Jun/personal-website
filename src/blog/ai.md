@@ -4,6 +4,9 @@ title: "Statement on AI and AI-based projects"
 description: "My stance on working with artificial intelligence."
 date: "2024-10-22"
 tags: "article"
+categories:
+  - philosophy
+  - software engineering
 hideMetadata: true
 ---
 

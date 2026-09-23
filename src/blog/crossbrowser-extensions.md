@@ -4,6 +4,9 @@ title: "Coding cross-browser extensions"
 description: "Setting up an environment and workflow to publish extensions on Chrome, Firefox, Edge, and Safari with a single codebase."
 date: "2023-11-23"
 tags: "article"
+categories:
+  - software engineering
+  - technical guide
 ---
 
 Recently, I've been working on a browser extension that helps students cite online sources. This extension is currently available on Google Chrome, Mozilla Firefox, and Edge (with plans of releasing on Safari soon) -- all of these instances are built from a single codebase, with no changes required between the builds. This article shortly details what I've learned as best practices and approaches to managing an extension on multiple browsers.
