@@ -6,9 +6,9 @@
 					"logo": "Iniciály T. J., použité jako logo webové stránky."
 				},
 				"portfolio": "Portfolio",
-				"projects": "Projekty",
 				"blog": "Blog",
-				"chat": "Kontakt"
+				"chat": "Kontakt",
+				"pages": "Stránky"
 			},
 			"footer": {
 				"copyright": "Copyright &#169; 2023–2026 Tadeáš Jůn",
@@ -41,7 +41,7 @@
 					"worldbuilding": "Nabízím profesionální <span class='text-primary'>world design</span> pro fiktivní příběhy, komiksy a hry. Specializuji se ve fantasy worldbuildingu, ale mám i zkušenosti se sci&#8209;fi světy. Dokáži vybudovat realistické prostředí, kultury, a historii pro jakýkoliv nový či existujicí projekt.",
 					"writing": "Nabízím své <span class='text-primary'>autorské</span> zkušenosti v oblasti informativních článků pro blogy či akademického a technického psaní. Vystudoval jsem anglický jazyk na Masarykově univerzitě, a od roku 2019 informativně píši o kreativním psaní, worldbuildingu, a vývoji softwaru. Mám také zkušenosti jako korektor gramatiky a formálních stylů (primárně MLA a APA).",
 					"coding": "Nabízím své schopnosti jako <span class='text-primary text-regular'>vývojář</span>. V posledních několika letech jsem nakódoval statické i dynamické webové stránky, Discord boty, Android aplikace, a mnoho dalšího. Profesně se programování věnuji přes 7 let, a za tu dobu jsem pracoval s různými technologiemi ve malých i velkých týmech. Díky mým zkušenostem v oboru mohu Vám zaručit kód, který bude čitelný, funkční a efektivní.",
-					"ai": "Prečtěte si mé vyjádření k [umělé inteligenci a projektům založených na AI](/blog/ai) (anglicky)."
+					"ai": "Prečtěte si mé vyjádření k [umělé inteligenci a projektům založených na AI](/ai) (anglicky)."
 				},
 				"projects": {
 					"coding": {
@@ -260,6 +260,38 @@
 				"heading": "Články na blogu",
 				"description": "Na svém blogu [Eledris](https://eledris.com/) píši články o worldbuildingu a kreativním psaní. Každý článek, který na Eledris vydám, mi zabere cca 200 hodin práce. Abych si občas dal pauzu od takto velkých projektů, a abych mohl rozšířit téma i mimo worldbuilding, založil jsem si menší blog na tomto webu. Zde píši kratší články zaměřené na programování, freelancing, a detailní výpisy mé práce. Články na tomto blogu jsou psané v angličtině.",
 				"rss": "Tento blog můžete odebírat pomocí <a href='/feed.xml' target='_blank'>RSS feedu</a>."
+			},
+			"pages": {
+				"all": {
+					"heading": "Všechny stránky",
+					"description": "Tato stránka obsahuje seznam všech unikátních stránek (t.j. ne články) na této webové stránce. Pomocí tohoto seznamu si můžete tento web prohlížet!",
+					"home": "Domovská stránka tohoto webu, která slouží jako mé portfolio.",
+					"about": "Stránka, která stručně popisuje mě a tuto stránku, méně formálně než mé portfolio.",
+					"contact": "Jak se mi můžete ozvat.",
+					"blog": "Seznam článků, které jsem na tomto webu napsal (pouze anglicky).",
+					"blogCategories": "Dynamicky generovaný seznam kategorií článků na mém blogu.",
+					"pages": "Tato stránka.",
+					"now": "Na co se momentálně soustředím.",
+					"accounts": "Seznam mých účtů na sociálních sítích a podobných platformách.",
+					"changelog": "Seznam úprav těchto webových stránek v opačném chronologickém pořadí (pouze anglicky).",
+					"ai": "Můj názor na generativní AI."
+				},
+				"blogCategories": {
+					"heading": "Kategorie",
+					"description": "Zde můžete najít seznam všech kategorií článků na tomto webu! Na stránce <a href=\"/blog\">blog</a> můžete najít seznam všech článků, a kliknutím na jméno kategorie níže můžete najít všechny články v dané kategorii.",
+					"postCount": "Počet článků:",
+					"lastUpdate": "Poslední aktualizace:",
+					"category": "Kategorie:"
+				},
+				"now": {
+					"heading": "Moje <code>/now</code> stránka",
+					"description": "Webová stránka <code>/now</code> \"říká, na co se zrovna tento člověk v životě soustředí\" (viz <a href=\"https://slashpages.net/#now\" target=\"_blank\" rel=\"noreferrer\">slashpages.net</a>). Na této stránce můžete najít popis toho, na čem nyní pracuji. Snažím se stránku aktualizovat na začátku každého měsíce.",
+					"lastUpdate": "Naposled jsem tuto stránku aktualizoval dne:",
+					"september2026": {
+						"title": "Září 2026",
+						"content": "Toto září se připravuji na poslední část roku. Poté co jsem to několik měsíců odkládal jsem konečně nakódoval revamp Twitch bota pro Art Prompts, což je jedna z posledních velkých částí projektů, které jsem chtěl dodělat. V práci také dokončuji pár velkých funkcí. V neposlední řadě se připravuji na napsání druhé poloviny mé magisterské diplomové práce, kterou musím dopsat do konce listopadu. Abych zajistil, že občas také odpočívám, koukám se tento měsíc na hodně filmů."
+					}
+				}
 			}
 		}
 	}

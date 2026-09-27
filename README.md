@@ -18,15 +18,21 @@ Technology files work similarly to project files. They are stored in `.md` files
 The website also hosts my personal blog, where I write articles on programming. Blog posts are written in Markdown files and displayed on the `/blog` page in reverse chronological order. At the moment, blog posts are not localized. Sometimes I write a longer post that I was planning for months, but oftentimes blog posts are just quick write-ups on a thing I just learned!
 
 Some blog posts I'd like to write in the future include:
-- Write-up of my homelab setup
-- Series on advanced topics when coding Discord bots
-- Documenting a color design system
+ - Write-up of my homelab setup
+ - Series on advanced topics when coding Discord bots
+ - Documenting a color design system
 
 ## Planned features
 I think personal websites should be a constant work-in-progress. Here are some things I'd like to do when I'm bored on a spare weekend:
-- Translation system for technology detail pages and blog posts
-- Copy button for code blocks in blog posts
-- French translation
+ - Translation system for technology detail pages and blog posts
+ - Copy button for code blocks in blog posts
+ - French translation
+
+## Other pages
+Besides the blog and the portfolio homepage, there are a couple of static pages on the website. These are all listed on the `/pages` page. Pages that I plan to implement but haven't yet include:
+ - `/about`
+ - `/accounts`
+ - `/contact`
 
 ## Contributing
 There isn't much to do on the website, but if you find any typos or think of a feature that could improve the user experience, feel free to open a PR! Please don't use AI to generate code for this website.

@@ -10,6 +10,24 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.9
+*2026-09-27*
+
+Features:
+ - Added the `/pages` page, using the `pageSummaries/*.md` files to list static pages on the website.
+ - Translated the `/blog/categories` and the individual category pages into Czech.
+ - Added the `/now` page, using the `now/*.md` files to list and archive what I'm working on in given periods of my life.
+
+Minor changes:
+ - Added a list of to-do pages into the `README.md`.
+ - Moved the AI statement from `/blog/ai` to `/ai`.
+ - Changed the header Projects link to the new Pages link.
+
+`/now`:
+ - Added the `/now` page for September 2026.
+
+---
+
 ## 2026.8
 *2026-09-23*
 

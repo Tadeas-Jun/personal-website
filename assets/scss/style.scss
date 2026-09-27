@@ -318,7 +318,17 @@ nav {
     box-shadow: -4px 8px 8px 0 rgba($color: $dark, $alpha: 0.2)
 }
 
-.blog-post code, .technology-page code {
+.blog-post blockquote {
+    padding-left: 1rem;
+    font-style: italic;
+    border-left: 1px solid $grey;
+
+    em {
+        font-style: normal;
+    }
+}
+
+code {
     margin: 0 2px;
     padding: 0 5px;
     background-color: $light-grey;
@@ -326,7 +336,7 @@ nav {
     color: $primary;
 }
 
-.blog-post pre code, .technology-page pre code {
+pre code {
     background: none;
     display: inline-block;
     line-height: 1.5rem;
@@ -335,7 +345,7 @@ nav {
     padding: 0 16px 0 0;
 }
 
-.blog-post pre code::before, .technology-page pre code::before {
+pre code::before {
     counter-increment: line;
     content: counter(line);
     display: inline-block;
@@ -347,7 +357,7 @@ nav {
     width: 3em;
 }
 
-.blog-post pre.code, .technology-page pre.code {
+pre.code {
     color: $light;
     background: $dark;
     padding: 16px 0 16px 8px;

@@ -19,6 +19,14 @@ module.exports = function(eleventyConfig) {
 		return collectionsApi.getFilteredByTags("testimonial").sort((a, b) => a.data.order - b.data.order);
 	});
 
+	eleventyConfig.addCollection("pageSummaries", async (collectionsApi) => {
+		return collectionsApi.getFilteredByTags("pageSummary").sort((a, b) => a.data.order - b.data.order);
+	});
+
+	eleventyConfig.addCollection("now", async (collectionsApi) => {
+		return collectionsApi.getFilteredByTags("now").sort((a, b) => a.data.number - b.data.number);
+	});
+
 	// Blog
 	eleventyConfig.addCollection("categories", async (collectionsApi) => {
 

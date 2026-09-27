@@ -1,0 +1,33 @@
+---
+layout: "base.njk"
+title: "/now"
+tags: "page"
+lastUpdate: "2026-09-23"
+---
+
+<section id="now" class="bg-light text-dark pt-5 px-2 px-sm-5 text-sm-start">
+  <div class="container">
+    <h1 class="display-3" data-i18n="pages.now.heading">My <code>/now</code> page</h1>
+	<p class="lead" data-i18n="pages.now.description">A <code>/now</code> page "tells you what this person is focused on at this point in their life" (see <a href="https://slashpages.net/#now" target="_blank" rel="noreferrer">slashpages.net</a>). On this page, I write out what I'm working on right now. I try to update the page at the start of every month.</p>
+	<p class="lead"><span data-i18n="pages.now.lastUpdate">I've last updated this page on:</span> <strong>{{lastUpdate}}</strong></p>
+
+	<hr />
+
+	{% assign nowSections = collections.now | reverse %}
+    {% for nowSection in nowSections limit:1 %}
+		<h2 class="display-4 mt-4" data-i18n="{{ nowSection.data.i18nTitle }}">{{ nowSection.data.title }}</h2>
+		<p data-i18n="{{ nowSection.data.i18nText }}">{{ nowSection.content | toPlainText | trim }}</p>
+	{% endfor %}
+
+	<hr />
+
+	{% assign olderSections = nowSections | reject: 'data.number', nowSections.length %}
+	{% for olderSection in olderSections %}
+		<details>
+			<summary class="display-4 mt-4" data-i18n="{{ olderSection.data.i18nTitle }}">{{ olderSection.data.title }}</summary>
+			<p data-i18n="{{ olderSection.data.i18nText }}">{{ olderSection.content | toPlainText | trim }}</p>
+		</details>
+	{% endfor %}
+
+  </div>
+</section>

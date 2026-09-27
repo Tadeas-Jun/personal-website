@@ -1,0 +1,28 @@
+---
+layout: "base.njk"
+title: "All pages"
+tags: "page"
+---
+
+<section id="pages" class="bg-light text-dark pt-5 px-2 px-sm-5 text-sm-start">
+  <div class="container">
+    <h1 class="display-3" data-i18n="pages.all.heading">All pages</h1>
+	<p class="lead" data-i18n="pages.all.description">This page lists all non-article pages on this website, in no particular order. Use it to navigate around the site!</p>
+
+	<div>
+
+		{% for pageSummary in collections.pageSummaries %}
+		{% if pageSummary.data.shown %}
+			<div class="mt-3 lead">
+				{% if pageSummary.data.icon %}
+					<img src="{{ pageSummary.data.icon }}" alt="" />
+				{% endif %}
+				<a href="{{ pageSummary.data.pageSlug }}">{{ pageSummary.data.pageSlug }}</a> -- <span data-i18n="{{ pageSummary.data.i18nDescription }}">{{ pageSummary.data.description }}</span>
+			</div>
+		{% endif %}
+		{% endfor %}
+
+	</div>
+
+  </div>
+</section>

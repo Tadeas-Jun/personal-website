@@ -10,9 +10,9 @@ permalink: "/blog/category/{{ category.name | slugify }}/index.html"
 
 <section class="bg-light text-dark pt-5 px-2 px-sm-5 text-sm-start">
   <div class="container">
-    <h1 class="display-3">Category: {{ category.name }}</h1>
-    <p class="mb-0">Post count: {{ category.count }}</p>
-    <p class="mb-0">Last updated: {{ category.lastUpdate }}</p>
+    <h1 class="display-3"><span data-i18n="pages.blogCategories.category">Category:</span> {{ category.name }}</h1>
+    <p class="mb-0"><span data-i18n="pages.blogCategories.postCount">Post count:</span> {{ category.count }}</p>
+    <p class="mb-0"><span data-i18n="pages.blogCategories.lastUpdate">Last updated:</span> {{ category.lastUpdate }}</p>
 	  <hr />
 
     {% assign categoryPosts = collections.article | postsWithCategory: category.name %}
