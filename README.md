@@ -30,8 +30,6 @@ I think personal websites should be a constant work-in-progress. Here are some t
 
 ## Other pages
 Besides the blog and the portfolio homepage, there are a couple of static pages on the website. These are all listed on the `/pages` page. Pages that I plan to implement but haven't yet include:
- - `/about`
- - `/accounts`
  - `/contact`
 
 ## Contributing

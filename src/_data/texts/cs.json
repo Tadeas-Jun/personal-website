@@ -291,6 +291,43 @@
 						"title": "Září 2026",
 						"content": "Toto září se připravuji na poslední část roku. Poté co jsem to několik měsíců odkládal jsem konečně nakódoval revamp Twitch bota pro Art Prompts, což je jedna z posledních velkých částí projektů, které jsem chtěl dodělat. V práci také dokončuji pár velkých funkcí. V neposlední řadě se připravuji na napsání druhé poloviny mé magisterské diplomové práce, kterou musím dopsat do konce listopadu. Abych zajistil, že občas také odpočívám, koukám se tento měsíc na hodně filmů."
 					}
+				},
+				"accounts": {
+					"heading": "Moje účty",
+					"description": "Tato stránka obsahuje výpis všech účtů, které vlastním na různých platformách, a všech mých webových domén. Všechny tyto profily byly zaručeně založeny mnou.",
+					"softwareEngineering": {
+						"heading": "Vývoj softwaru",
+						"description": "Na sociálních sítích nejsem moc aktivní, takže většinu těchto účtů nepoužívám, ale mám je založené pro případ, že s nimi v budoucnu budu chtít něco udělat."
+					},
+					"socialMedia": {
+						"heading": "Sociální sítě"
+					},
+					"status": {
+						"unused": "(neaktivní)",
+						"deleted": "smazáno",
+						"inactive": "(neaktivní)"
+					},
+					"other": {
+						"heading": "Jiné"
+					},
+					"artPrompts": {
+						"heading": "Art&nbsp;Prompts",
+						"description": "Jako součástí mého <a href=\"https://artprompts.app/\">Art&nbsp;Prompts</a> projektu operuji několik účtů na sociálních sítích."
+					},
+					"domains": {
+						"heading": "Webové domény"
+					}
+				},
+				"about": {
+					"heading": "O mně",
+					"introduction": "Ahoj, jmenuji se Tadeáš! Jsem senior vývojář webů v Brně. Vytvářím webové stránky od začátku do konce, jak pracovně tak ve svém volném čase. Hlavní stránka tohoto webu obsahuje <a href=\"/\">mé portfolio</a>, na které tě odkážu, jestli hledáš vývojáře. Tato stránka je napsaná neformálně, a je hlavně mířená na návštěvníky mého webu, kteří zaměstnance nehledají.",
+					"softwareEngineering": "Rád si hraju s technologií, díky čemuž vzniká hodně mých osobních projektů, včetně mého největšího projektu Art Prompts, a mého nejpopulárnějšího webu HKSkins. Mám doma vlastní server, na kterém self-hostuji hodně různých open-source projektů, které pak používám jak profesionálně tak v osobním životě. Na tomto webu píšu malý anglický blog o programování a o čemkoliv jiném, nad čím zrovna ten týden přemýšlím.",
+					"literature": "Miluji literaturu, a proto mám vystudovanou literární analýzu na bakalářské a magisterské úrovni. Zajímám se o queer reprezentaci a post-koloniální literatury. Nejvíce bych doporučil krátkou knihu <em>Split Tooth</em> od autorky Tanya Tagaq.",
+					"community": "Považuji za hodně důležitou komunitu -- v osobním životě si cením svých přátel a všech lidí okolo mě, a snažím se, aby se tato hodnota reflektovala v mých projektech, které se vždy pokouší co nejvíce zlepšit životy lidí.",
+					"contact": {
+						"heading": "Kontakt",
+						"description": "Pokud si chceš popovídat, můžeš se mi ozvat skrze mojí <a href=\"/#contact\">Kontakt stránku</a>!"
+					}
 				}
 			}
 		}

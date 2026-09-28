@@ -1,7 +1,7 @@
 ---
 tags: pageSummary
 pageSlug: /about
-shown: false
+shown: true
 order: 2
 
 icon: /assets/img/icons/person-badge.svg

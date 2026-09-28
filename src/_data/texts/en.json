@@ -291,6 +291,43 @@
 						"title": "September 2026",
 						"content": "This September, I've been preparing for the final parts of the year. After putting it off for several months, I've finally finished up revamping the Twitch bot for Art Prompts, which is one of the final large features I've been wanting to finish for that project. At work, I'm also wrapping up a couple of large features. Finally, I'm preparing for writing the second half of my Master's thesis, which I need to finish by the end of November. To make sure I take breaks from work, I've also been watching a lot of movies."
 					}
+				},
+				"accounts": {
+					"heading": "My accounts",
+					"description": "This page lists the accounts I run on various platforms, and the domains I own. All of the profiles listed on this site are verified to actually be me.",
+					"softwareEngineering": {
+						"heading": "Software engineering",
+						"description": "I'm not really active on social media nowadays, so most of these accounts aren't actively used, but I'm keeping them in case I want to do something with them in the future."
+					},
+					"socialMedia": {
+						"heading": "Social media accounts"
+					},
+					"status": {
+						"unused": "(unused)",
+						"deleted": "deleted",
+						"inactive": "(inactive)"
+					},
+					"other": {
+						"heading": "Other"
+					},
+					"artPrompts": {
+						"heading": "Art&nbsp;Prompts",
+						"description": "As a part of my <a href=\"https://artprompts.app/\">Art&nbsp;Prompts</a> project, I manage a number of social media accounts for the brand."
+					},
+					"domains": {
+						"heading": "Domains"
+					}
+				},
+				"about": {
+					"heading": "About me",
+					"introduction": "Hi, I'm Tadeas! I'm a senior software engineer based in Brno, Czech Republic. I create websites from start to finish, both commercially and as a hobby. The homepage of this website contains <a href=\"/\">my portfolio</a>, so I would refer you to that if you're looking for a web developer. This page is written in a more informal style, and is meant for visitors of my website that aren't necessarily looking for engineers to hire.",
+					"softwareEngineering": "In my day-to-day, I mostly go by Tad, so you can call me that! I like tinkering, which is how a lot of my personal projects started, including my largest website, Art Prompts, and my most popular one, HKSkins. In that vein, I also run a homeserver where I self-host a bunch of various open-source services, for personal and professional use. On this website, I write a small blog about tech and whatever comes to mind on a given week.",
+					"literature": "I love literature, having studied literary analysis for my Bachelor's and Master's degree. I'm interested in queer representation and post-colonial literatures. My top recommendation is <em>Split Tooth</em> by Tanya Tagaq.",
+					"community": "I put a lot of emphasis on community -- in my personal life, I value my friends and everyone else around me, and I try to reflect this value in my projects, which always try to improve the lives of people.",
+					"contact": {
+						"heading": "Contact",
+						"description": "If you'd like to chat, feel free to reach out through <a href=\"/#contact\">my Contact page</a>!"
+					}
 				}
 			}
 		}

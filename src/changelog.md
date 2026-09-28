@@ -10,6 +10,19 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.10
+*2026-09-28*
+
+Features:
+ - Added the `/accounts` page, listing all domains and third-party profiles I own.
+ - Added the `/about` page, casually describing me and this website.
+
+Minor changes:
+ - Shown the `/accounts` and `/about` pages on the `/pages` list.
+ - Changed the "Read more" link in the blog post author block to lead to the `/about` page instead of the homepage.
+
+---
+
 ## 2026.9
 *2026-09-27*
 
