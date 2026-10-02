@@ -10,6 +10,14 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.11
+*2026-10-02*
+
+`/now`:
+ - Added the `/now` page for October 2026.
+
+---
+
 ## 2026.10
 *2026-09-28*
 
