@@ -2,7 +2,7 @@
 tags: pageSummary
 pageSlug: /accounts
 shown: true
-order: 8
+order: 9
 
 icon: /assets/img/icons/person-heart.svg
 

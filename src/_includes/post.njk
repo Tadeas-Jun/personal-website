@@ -13,10 +13,10 @@ author:
 	<div class="container blog-post">
 		<h1 class="display-2">{{ title }}</h1>
 		{% if not hideMetadata %}
-			<p class="grey mb-0">by {{ author.name }} ({{ author.pronouns }}). Published on {{ date }}. {{ (content | wordcount).toLocaleString() }} words.</p>
+			<p class="grey mb-0">by {{ author.name }} ({{ author.pronouns }}). Published on {{ date }}. {{ (content | striptags | wordcount).toLocaleString() }} words.</p>
 			<div class="categoryLinks mt-1 mb-3">
 				{% for category in categories %}
-					{% categoryLink category, category | slugify %}
+					{% include 'categoryLink.njk' %}
 				{% endfor %}
 			</div>
 		{% endif %}
@@ -26,7 +26,7 @@ author:
 		{{ content | safe }}
 		{% if not hideMetadata %}
 			<hr />
-			{% authorBlock author %}
+			{% include 'authorBlock.njk' %}
 		{% endif %}
 	</div>
 </main>

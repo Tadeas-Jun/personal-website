@@ -13,20 +13,20 @@ lastUpdate: "2026-10-01"
 
 	<hr />
 
-	{% assign nowSections = collections.now | reverse %}
-    {% for nowSection in nowSections limit:1 %}
-		<h2 class="display-4 mt-4" data-i18n="{{ nowSection.data.i18nTitle }}">{{ nowSection.data.title }}</h2>
-		<p data-i18n="{{ nowSection.data.i18nText }}">{{ nowSection.content | toPlainText | trim }}</p>
-	{% endfor %}
+	{% set nowSection = collections.now | last %}
+	<h2 class="display-4 mt-4" data-i18n="{{ nowSection.data.i18nTitle }}">{{ nowSection.data.title }}</h2>
+	<p data-i18n="{{ nowSection.data.i18nText }}">{{ nowSection.content | toPlainText | trim }}</p>
 
 	<hr />
 
-	{% assign olderSections = nowSections | reject: 'data.number', nowSections.length %}
+	{% set olderSections = collections.now | reverse %}
 	{% for olderSection in olderSections %}
-		<details>
-			<summary class="display-4 mt-4" data-i18n="{{ olderSection.data.i18nTitle }}">{{ olderSection.data.title }}</summary>
-			<p data-i18n="{{ olderSection.data.i18nText }}">{{ olderSection.content | toPlainText | trim }}</p>
-		</details>
+		{% if not loop.index0 == 0 %}
+			<details>
+				<summary class="display-4 mt-4" data-i18n="{{ olderSection.data.i18nTitle }}">{{ olderSection.data.title }}</summary>
+				<p data-i18n="{{ olderSection.data.i18nText }}">{{ olderSection.content | toPlainText | trim }}</p>
+			</details>
+		{% endif %}
 	{% endfor %}
 
   </div>

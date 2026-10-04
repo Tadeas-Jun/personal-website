@@ -2,7 +2,7 @@
 tags: pageSummary
 pageSlug: /pages
 shown: true
-order: 6
+order: 7
 
 icon: /assets/img/icons/file-earmark.svg
 

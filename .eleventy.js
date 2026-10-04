@@ -80,25 +80,9 @@ module.exports = function(eleventyConfig) {
 	const postsWithCategoryFilter = require('./src/_filters/postsWithCategory.js');
 	eleventyConfig.addFilter("postsWithCategory", postsWithCategoryFilter);
 
-	// Shortcodes
-	const projectCardLargeShortcode = require('./src/_shortcodes/projectCardLarge.js');
-	eleventyConfig.addShortcode("projectCardLarge", projectCardLargeShortcode);
-
-	const projectCardListShortcode = require('./src/_shortcodes/projectCardLink.js');
-	eleventyConfig.addShortcode("projectCardLink", projectCardListShortcode);
-
-	const blogCardShortcode = require('./src/_shortcodes/blogCard.js');
-	eleventyConfig.addShortcode("blogCard", blogCardShortcode);
-
-	const authorBlockShortcode = require('./src/_shortcodes/authorBlock.js');
-	eleventyConfig.addShortcode("authorBlock", authorBlockShortcode);
-
-	const categoryLinkShortcode = require('./src/_shortcodes/categoryLink.js');
-	eleventyConfig.addShortcode("categoryLink", categoryLinkShortcode);
-
 	return {
-
 		passthroughFileCopy: true,
+		htmlTemplateEngine: "njk",
 		markdownTemplateEngine: "njk",
 		templateFormats: ["html", "njk", "md", "txt", "11ty.js"],
 		dir: {

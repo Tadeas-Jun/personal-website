@@ -14,7 +14,7 @@
 			<!-- Card coding projects-->
 			{% for project in collections.projects %}
 				{% if project.data.niche == 'coding' and project.data.type == 'card' and project.data.shown %}
-					{% projectCardLarge project %}
+					{% include 'projectCardLarge.njk' %}
 				{% endif %}
 			{% endfor %}
 		</div>
@@ -25,7 +25,7 @@
 			<!-- Link coding projects -->
 			{% for project in collections.projects %}
 				{% if project.data.niche == 'coding' and project.data.type == 'link' and project.data.shown %}
-					{% projectCardLink project %}
+					{% include 'projectCardLink.njk' %}
 				{% endif %}
 			{% endfor %}
 		</div>

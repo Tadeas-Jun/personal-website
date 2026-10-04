@@ -2,7 +2,7 @@
 tags: pageSummary
 pageSlug: /changelog
 shown: true
-order: 9
+order: 10
 
 icon: /assets/img/icons/clock-history.svg
 

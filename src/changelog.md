@@ -10,6 +10,20 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.12
+*2026-10-04*
+
+Features:
+ - Switched HTML templating engine from Liquid to Nunjucks in all HTML pages.
+ - Implemented the `/blog/stats` statistics page.
+ - Migrated all Eleventy HTML/JS shortcodes to Nunjucks includes files.
+
+Minor changes:
+ - Implemented the `striptags` filter when calculating the word count of blog posts.
+ - Added the word count of each blog post to post preview cards.
+
+---
+
 ## 2026.11
 *2026-10-02*
 

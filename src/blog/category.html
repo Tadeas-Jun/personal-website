@@ -15,9 +15,9 @@ permalink: "/blog/category/{{ category.name | slugify }}/index.html"
     <p class="mb-0"><span data-i18n="pages.blogCategories.lastUpdate">Last updated:</span> {{ category.lastUpdate }}</p>
 	  <hr />
 
-    {% assign categoryPosts = collections.article | postsWithCategory: category.name %}
-    {% for post in categoryPosts reversed %}
-      {% blogCard post %}
+    {% set categoryPosts = collections.article | postsWithCategory(category.name) %}
+    {% for post in categoryPosts | reverse %}
+      {% include 'blogCard.njk' %}
     {% endfor %}
 
   </div>

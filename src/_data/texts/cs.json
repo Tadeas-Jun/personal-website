@@ -274,7 +274,8 @@
 					"now": "Na co se momentálně soustředím.",
 					"accounts": "Seznam mých účtů na sociálních sítích a podobných platformách.",
 					"changelog": "Seznam úprav těchto webových stránek v opačném chronologickém pořadí (pouze anglicky).",
-					"ai": "Můj názor na generativní AI."
+					"ai": "Můj názor na generativní AI.",
+					"stats": "Statistiky o blogu na tomto webu."
 				},
 				"blogCategories": {
 					"heading": "Kategorie",
@@ -332,6 +333,15 @@
 						"heading": "Kontakt",
 						"description": "Pokud si chceš popovídat, můžeš se mi ozvat skrze mojí <a href=\"/#contact\">Kontakt stránku</a>!"
 					}
+				},
+				"blogStats": {
+					"header": "Statistiky blogu",
+					"description": "Tato stránka obsahuje dynamicky spočítané statistiky o mém blogu na tomto webu.",
+					"totalPosts": "Počet článku:",
+					"totalWords": "Počet slov celkem:",
+					"totalCategories": "Počet kategorií:",
+					"latestPostDate": "Den vydání nejnovějšího článku:",
+					"firstPostDate": "Den vydání prvního článku:"
 				}
 			}
 		}

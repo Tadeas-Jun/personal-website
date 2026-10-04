@@ -2,7 +2,7 @@
 tags: pageSummary
 pageSlug: /now
 shown: true
-order: 7
+order: 8
 
 icon: /assets/img/icons/watch.svg
 

@@ -1,0 +1,35 @@
+---
+layout: "base.njk"
+title: "Blog statistics"
+tags: "page"
+---
+
+<section id="description" class="bg-light text-dark pt-5 px-2 px-sm-5 text-sm-start">
+  <div class="container">
+    <h1 class="display-3" data-i18n="pages.blogStats.header">Blog statistics</h2>
+    <p class="lead" data-i18n="pages.blogStats.description">This page lists some dynamically calculated statistics about the blog on this site.</p>
+	<hr />
+  </div>
+</section>
+
+<section id="statistics" class="bg-light text-dark px-2 px-sm-5 text-sm-start">
+  <div class="container">
+
+	<p><span data-i18n="pages.blogStats.totalPosts">Total blog posts:</span> {{ collections.article | length }}</p>
+
+	{% set totalWordCount = 0 %}
+	{% for currentPost in collections.article %}
+		{% set currentPostWordCount = currentPost.content | striptags | wordcount %}
+		{% set totalWordCount = (totalWordCount + currentPostWordCount) %}
+	{% endfor %}
+	<p><span data-i18n="pages.blogStats.totalWords">Approximate total word count:</span> {{ totalWordCount.toLocaleString() }}</p>
+	<p><span data-i18n="pages.blogStats.totalCategories">Total categories:</span> {{ collections.categories | length }}</p>
+
+	{% set latestPost = collections.article | last %}
+	<p><span data-i18n="pages.blogStats.latestPostDate">Latest post release date:</span> {{ latestPost.data.date }}</p>
+
+	{% set firstPost = collections.article | first %}
+	<p><span data-i18n="pages.blogStats.firstPostDate">First post release date:</span> {{ firstPost.data.date }}</p>
+
+  </div>
+</section>

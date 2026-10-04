@@ -2,7 +2,7 @@
 tags: pageSummary
 pageSlug: /ai
 shown: true
-order: 10
+order: 11
 
 icon: /assets/img/icons/robot.svg
 

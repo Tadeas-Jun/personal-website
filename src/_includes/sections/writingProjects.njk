@@ -5,15 +5,15 @@
 
 		<div class="container pt-3 d-md-flex flex-wrap mb-4">
 		{% for project in collections.projects %}
-			{% if not project.data.niche == 'coding' and project.data.type == 'card' and project.data.shown %}
-				{% projectCardLarge project %}
+			{% if (project.data.niche == 'writing' or project.data.niche == 'worldbuilding') and project.data.type == 'card' and project.data.shown %}
+				{% include 'projectCardLarge.njk' %}
 			{% endif %}
 		{% endfor %}
 		</div>
 
 		{% for project in collections.projects %}
-			{% if not project.data.niche == 'coding' and project.data.type == 'link' and project.data.shown %}
-				{% projectCardLink project %}
+			{% if (project.data.niche == 'writing' or project.data.niche == 'worldbuilding') and project.data.type == 'link' and project.data.shown %}
+				{% include 'projectCardLink.njk' %}
 			{% endif %}
 		{% endfor %}
 

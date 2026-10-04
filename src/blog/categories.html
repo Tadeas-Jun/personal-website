@@ -17,9 +17,9 @@ tags: "page"
 
 	{% for category in collections.categories %}
 		<div class="mt-4">
-			<h2 class="display-4"><a href="/blog/category/{{category.name | slugify}}">{{category.name}}</a></h2>
-			<p class="mb-0"><span data-i18n="pages.blogCategories.postCount">Post count:</span> {{category.count}}</p>
-			<p class="mb-0"><span data-i18n="pages.blogCategories.lastUpdate">Last updated:</span> {{category.lastUpdate}}</p>
+			<h2 class="display-4"><a href="/blog/category/{{ category.name | slugify }}">{{ category.name }}</a></h2>
+			<p class="mb-0"><span data-i18n="pages.blogCategories.postCount">Post count:</span> {{ category.count }}</p>
+			<p class="mb-0"><span data-i18n="pages.blogCategories.lastUpdate">Last updated:</span> {{ category.lastUpdate }}</p>
 		</div>
 
 	{% endfor %}

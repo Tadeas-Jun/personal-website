@@ -15,8 +15,8 @@ tags: "page"
 <section id="blog-posts" class="bg-light text-dark px-2 px-sm-5 text-sm-start">
   <div class="container">
 
-	{% for post in collections.article reversed %}
-		{% blogCard post %}
+	{% for post in collections.article | reverse %}
+		{% include 'blogCard.njk' %}
 	{% endfor %}
 
   </div>

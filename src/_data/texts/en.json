@@ -274,7 +274,8 @@
 					"now": "What I'm currently focused on.",
 					"accounts": "A list of my accounts on social media and other platforms.",
 					"changelog": "Reverse chronological list of the changes I've made to this website.",
-					"ai": "My stance on generative AI."
+					"ai": "My stance on generative AI.",
+					"stats": "Calculated statistics about this blog."
 				},
 				"blogCategories": {
 					"heading": "Categories",
@@ -332,6 +333,15 @@
 						"heading": "Contact",
 						"description": "If you'd like to chat, feel free to reach out through <a href=\"/#contact\">my Contact page</a>!"
 					}
+				},
+				"blogStats": {
+					"header": "Blog statistics",
+					"description": "This page lists some dynamically calculated statistics about the blog on this site.",
+					"totalPosts": "Total blog posts:",
+					"totalWords": "Approximate total word count:",
+					"totalCategories": "Total categories:",
+					"latestPostDate": "Latest post release date:",
+					"firstPostDate": "First post release date:"
 				}
 			}
 		}

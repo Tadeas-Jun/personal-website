@@ -2,9 +2,7 @@
   <div class="container">
     <h2 class="display-3" data-i18n="home.blog.heading">Latest blog post</h2>
     <p class="lead" data-i18n="home.blog.description">I just released this post! Read more of them on <a href="/blog">the blog page</a>.</p>
-    {% assign posts = collections.article | reverse %}
-    {% for post in posts limit:1 %}
-		  {% blogCard post %}
-	  {% endfor %}
+    {% set post = collections.article | last %}
+    {% include 'blogCard.njk' %}
   </div>
 </section>
