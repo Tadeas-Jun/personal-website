@@ -50,4 +50,40 @@ Then, in my `/etc/crontab`, I set the script to run daily:
 
 And now I get nightly Umami backups! I have no idea if this is the best way to do this specifically for Umami, but it works, and I hope this tiny guide was helpful!
 
-Note: This works for me on Umami v3.0.3. I'll edit this line in this article if I find that it broke on later versions and I managed to fix it.
+Note: I wrote this article when I was using Umami `v3.0.3`. I also tested it on Umami `v3.4.1`, and everything worked. I'll edit this line in this article if I find that it broke on later versions and I managed to fix it.
+
+## Update: Deleting old backups
+*This section was written on **2026-10-28** using Umami `v3.4.1`.*
+
+About 8 months after I published this article, I found myself setting up automated Umami backups on a different VPS, this time for my own personal projects. Since I have been running Umami for these websites for many years at this point, the database of visits and events is really huge. At some point, I should probably archive some of that old data, but that's a task for another day. For now, I wanted to have my script automatically delete old backups so they wouldn't take up unnecessary space on my VPS.
+
+To do this, I slightly rewrote the backup script. The new version deletes the backup from the day before once a backup is successful.
+
+```
+#!/usr/bin/env bash
+
+date="$(date -I)"
+backup_dir="/opt/umami/backups"
+
+docker exec -t umami-db-1 pg_dump -U umami --clean --if-exists umami > ${backup_dir}/${date}-umami-backup.dump
+
+if [ "$?" -eq 0 ]
+then
+	echo "[${date}] Succesfully backed up Umami database."
+
+	if [ -d "${backup_dir}/$(date -I -d "$d - 1 day")-umami-backup.dump" ]
+	then
+			echo "[${date}] Deleting old backup at ${backup_dir}/$(date -I -d "$d - 1 day")-umami-backup.dump."
+			rm -rf "${backup_dir}/$(date -I -d "$d - 1 day")-umami-backup.dump"
+	else
+			echo "[${date}] Not deleting an old backup, as the directory does not exist."
+	fi
+else
+	echo "[${date}] Failed to back up Umami database!"
+fi
+
+# Use the following command (manually) to restore a dump
+# docker exec -i umami-db-1 psql -U umami umami < backup.dump
+```
+
+This way, only one backup at a time is stored on the production VPS. This allows me to quickly react to any issues that pop up. On a weekly basis, I also pull this backup to my homeserver, where I have much higher storage capacity, and I keep these backups archived for longer.

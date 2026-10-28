@@ -10,6 +10,15 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.13
+*2026-10-28*
+
+Minor changes:
+ - Updated dependencies.
+
+Articles:
+ - Updated the [*Automatic backups on self-hosted Umami analytics via Docker*](/blog/selfhosted-umami-docker-backups/) article with a new version of the script that also automatically deletes old backups.
+
 ## 2026.12
 *2026-10-04*
 
