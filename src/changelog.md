@@ -10,6 +10,15 @@ This page documents changes made on this website. It's mostly meant just for my 
 
 ---
 
+## 2026.14
+*2026-11-01*
+
+Minor changes:
+ - Updated dependencies.
+
+`/now`:
+ - Added the `/now` page for November 2026.
+
 ## 2026.13
 *2026-10-28*
 
